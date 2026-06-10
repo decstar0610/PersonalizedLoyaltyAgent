@@ -1,0 +1,7 @@
+.env
+venv/
+__pycache__/
+faiss_index/
+
+# Generated synthetic dataset (reproducible via scripts/generate_customers.py)
+data/customers_large.json

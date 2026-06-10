@@ -1,0 +1,83 @@
+[
+  {
+    "customer_id": "C001",
+    "name": "Asha",
+    "purchase_history": [
+      {"item": "running shoes", "category": "sportswear", "amount": 4200, "date": "2025-03-10"},
+      {"item": "protein powder", "category": "nutrition", "amount": 1800, "date": "2025-04-02"},
+      {"item": "yoga mat", "category": "sportswear", "amount": 1200, "date": "2025-04-21"}
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 320
+  },
+  {
+    "customer_id": "C002",
+    "name": "Rahul",
+    "purchase_history": [
+      {"item": "wireless headphones", "category": "electronics", "amount": 6500, "date": "2025-01-15"},
+      {"item": "mechanical keyboard", "category": "electronics", "amount": 5400, "date": "2025-02-20"},
+      {"item": "4k monitor", "category": "electronics", "amount": 18900, "date": "2025-03-05"},
+      {"item": "usb-c hub", "category": "electronics", "amount": 2200, "date": "2025-05-12"}
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 640
+  },
+  {
+    "customer_id": "C003",
+    "name": "Meera",
+    "purchase_history": [
+      {"item": "cotton kurta", "category": "apparel", "amount": 1500, "date": "2025-05-28"}
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 80
+  },
+  {
+    "customer_id": "C004",
+    "name": "Vikram",
+    "purchase_history": [
+      {"item": "espresso machine", "category": "home", "amount": 12500, "date": "2025-02-08"},
+      {"item": "cookware set", "category": "home", "amount": 4800, "date": "2025-03-19"},
+      {"item": "air fryer", "category": "home", "amount": 6200, "date": "2025-04-30"}
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 410
+  },
+  {
+    "customer_id": "C005",
+    "name": "Sofia",
+    "purchase_history": [
+      {"item": "bestseller novel", "category": "books", "amount": 600, "date": "2025-01-22"},
+      {"item": "skincare serum", "category": "beauty", "amount": 2300, "date": "2025-02-14"},
+      {"item": "running shorts", "category": "sportswear", "amount": 1400, "date": "2025-03-30"},
+      {"item": "board game", "category": "toys", "amount": 1900, "date": "2025-04-18"},
+      {"item": "scented candle set", "category": "home", "amount": 1100, "date": "2025-05-25"}
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1180
+  }
+]
