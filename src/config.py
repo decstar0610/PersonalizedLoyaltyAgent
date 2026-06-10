@@ -20,7 +20,8 @@ NVIDIA_API_KEY = os.getenv("NVIDIA_API_KEY")
 # synthetic set (data/customers_large.json) without changing any code.
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEFAULT_CUSTOMERS_FILE = os.path.join(PROJECT_ROOT, "data", "customers.json")
-CUSTOMERS_FILE = os.getenv("CUSTOMERS_FILE", DEFAULT_CUSTOMERS_FILE)
+# `or` (not getenv's default) so a present-but-empty value falls back too.
+CUSTOMERS_FILE = os.getenv("CUSTOMERS_FILE") or DEFAULT_CUSTOMERS_FILE
 
 # --- Models named in the PRD (section 6) ---
 LLM_MODEL = "meta/llama-3.1-70b-instruct"
