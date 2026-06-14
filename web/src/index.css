@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+/* Customer Journey Studio — premium luxury-loyalty palette.
+   Deep navy + charcoal canvas accents, ivory surfaces, muted gold. */
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-navy-950: #08101f;
+  --color-navy-900: #0c1626;
+  --color-navy-800: #122036;
+  --color-navy-700: #1b2c47;
+  --color-navy-600: #25395a;
+
+  --color-charcoal: #20283a;
+
+  --color-ivory: #f6f2e9;
+  --color-ivory-100: #fbf8f1;
+  --color-ivory-200: #efe9db;
+
+  --color-gold-200: #ecdcae;
+  --color-gold-300: #ddc488;
+  --color-gold-400: #cba557;
+  --color-gold: #b88a32;
+  --color-gold-600: #9a7228;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-ivory);
+    color: var(--color-navy-900);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  /* Subtle ivory paper texture via layered radial highlights */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(1200px 600px at 80% -10%, rgba(184, 138, 50, 0.06), transparent 60%),
+      radial-gradient(900px 500px at -10% 10%, rgba(12, 22, 38, 0.05), transparent 55%);
+    z-index: 0;
+  }
+}
+
+/* Thin elegant scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(12, 22, 38, 0.18);
+  border-radius: 999px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(12, 22, 38, 0.32);
+  background-clip: content-box;
+}
+
+@keyframes studio-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-up {
+  animation: studio-fade-up 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}

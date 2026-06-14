@@ -76,8 +76,10 @@ rules via RAG, and produces a tailored journey — while strictly respecting pri
 
 ```
 .
-├── api/main.py                  # FastAPI: POST /generate-journey
-├── app/streamlit_app.py         # Streamlit demo UI
+├── api/main.py                  # FastAPI: GET /customers, POST /generate-journey
+├── app/streamlit_app.py         # Streamlit demo UI (simple, backup)
+├── web/                         # Customer Journey Studio — premium React UI (Vite + TS)
+│   └── src/                     #   App.tsx, api.ts (backend client), studio.ts (metrics)
 ├── data/customers.json          # 5 curated demo customers (incl. one consent-off)
 ├── data/loyalty_rules.md        # loyalty rules document (RAG source)
 ├── docs/PRD.md                  # Product Requirements Document
@@ -87,6 +89,7 @@ rules via RAG, and produces a tailored journey — while strictly respecting pri
 ├── src/rag.py                   # FAISS RAG pipeline (NIM embeddings)
 ├── src/tools.py                 # agent tools
 ├── tests/test_agent.py          # pytest: consent-off + personalized
+├── start-demo.ps1               # one-command demo launcher (backend + studio)
 ├── .env.example                 # NVIDIA_API_KEY template
 └── requirements.txt
 ```
@@ -136,7 +139,25 @@ curl -X POST http://localhost:8000/generate-journey \
 ```
 Errors: `404` if the customer is unknown, `500` on LLM / retrieval failure.
 
-**Run the demo UI:**
+**Run the Customer Journey Studio (premium React UI):**
+
+The flagship demo. A six-section studio — Customer Identity, Consent Intelligence,
+Loyalty DNA, Agent Reasoning Workspace, Reward Journey Timeline, and Business Impact
+Preview — all driven by the live NVIDIA agent, with consent enforced server-side.
+
+```bash
+# one command (Windows): starts the backend + studio and opens the browser
+./start-demo.ps1
+```
+Or manually (needs Node 18+):
+```bash
+uvicorn api.main:app --port 8000      # terminal 1 — backend
+cd web && npm install && npm run dev   # terminal 2 — studio (http://localhost:5173)
+```
+Studio metrics (Loyalty DNA, Business Impact) are derived deterministically from each
+customer's real data and labelled "estimate"; the journey itself comes from the agent.
+
+**Run the simple Streamlit UI (backup):**
 ```bash
 streamlit run app/streamlit_app.py
 ```

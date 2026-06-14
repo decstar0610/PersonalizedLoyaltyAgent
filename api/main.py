@@ -6,11 +6,22 @@ the PRD exactly.
 """
 
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
+from src import tools
 from src.agent import generate_journey
 
 app = FastAPI(title="PS100 Personalized Loyalty Agent", version="1.0")
+
+# Allow the custom HTML/JS frontend (served from a file or another port) to call
+# this API from the browser. Open for the local demo; tighten origins for prod.
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["GET", "POST"],
+    allow_headers=["*"],
+)
 
 
 class JourneyRequest(BaseModel):
@@ -20,6 +31,12 @@ class JourneyRequest(BaseModel):
 @app.get("/health")
 def health() -> dict:
     return {"status": "ok"}
+
+
+@app.get("/customers")
+def list_customers() -> list[dict]:
+    """Return all customers so the frontend can populate its picker and profile panel."""
+    return tools.get_all_customers()
 
 
 @app.post("/generate-journey")

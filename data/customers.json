@@ -2,6 +2,8 @@
   {
     "customer_id": "C001",
     "name": "Asha",
+    "avatar": "https://ui-avatars.com/api/?name=Asha&background=4f46e5&color=fff&size=150",
+    "persona": "Fitness-focused shopper who regularly buys sportswear and nutrition products and responds well to activity-based rewards.",
     "purchase_history": [
       {"item": "running shoes", "category": "sportswear", "amount": 4200, "date": "2025-03-10"},
       {"item": "protein powder", "category": "nutrition", "amount": 1800, "date": "2025-04-02"},
@@ -18,6 +20,8 @@
   {
     "customer_id": "C002",
     "name": "Rahul",
+    "avatar": "https://ui-avatars.com/api/?name=Rahul&background=0891b2&color=fff&size=150",
+    "persona": "Tech-focused buyer investing steadily in premium electronics and computing gear; values accessories and protection plans.",
     "purchase_history": [
       {"item": "wireless headphones", "category": "electronics", "amount": 6500, "date": "2025-01-15"},
       {"item": "mechanical keyboard", "category": "electronics", "amount": 5400, "date": "2025-02-20"},
@@ -35,6 +39,8 @@
   {
     "customer_id": "C003",
     "name": "Meera",
+    "avatar": "https://ui-avatars.com/api/?name=Meera&background=b45309&color=fff&size=150",
+    "persona": "Occasional apparel shopper, new to the program and exploring everyday ethnic wear; early-stage relationship.",
     "purchase_history": [
       {"item": "cotton kurta", "category": "apparel", "amount": 1500, "date": "2025-05-28"}
     ],
@@ -49,6 +55,8 @@
   {
     "customer_id": "C004",
     "name": "Vikram",
+    "avatar": "https://ui-avatars.com/api/?name=Vikram&background=64748b&color=fff&size=150",
+    "persona": "Home and kitchen enthusiast who has opted OUT of personalization; must receive only standard, non-personalized offers.",
     "purchase_history": [
       {"item": "espresso machine", "category": "home", "amount": 12500, "date": "2025-02-08"},
       {"item": "cookware set", "category": "home", "amount": 4800, "date": "2025-03-19"},
@@ -65,6 +73,8 @@
   {
     "customer_id": "C005",
     "name": "Sofia",
+    "avatar": "https://ui-avatars.com/api/?name=Sofia&background=0d9488&color=fff&size=150",
+    "persona": "High-engagement omnivore shopping across books, beauty, sportswear, toys, and home; top-tier, broad interests.",
     "purchase_history": [
       {"item": "bestseller novel", "category": "books", "amount": 600, "date": "2025-01-22"},
       {"item": "skincare serum", "category": "beauty", "amount": 2300, "date": "2025-02-14"},

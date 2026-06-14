@@ -1,0 +1,6 @@
+{
+  "name": "Loyalty Personalization Dashboard",
+  "description": "An internal marketing dashboard to view customer purchase histories, configure consent options, and generate personalized loyalty journeys or standard offers using Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

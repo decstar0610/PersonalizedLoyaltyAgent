@@ -16,6 +16,11 @@ def _load_customers() -> list[dict]:
         return json.load(f)
 
 
+def get_all_customers() -> list[dict]:
+    """Return every customer record (drives the UI dropdown and profile panel)."""
+    return _load_customers()
+
+
 def get_customer(customer_id: str) -> dict | None:
     """Return the full customer record, or None if not found (drives the 404)."""
     for customer in _load_customers():
@@ -36,4 +41,10 @@ def check_consent(customer_id: str) -> dict:
     return customer["consent_flags"] if customer else {}
 
 
-__all__ = ["get_customer", "get_purchase_history", "check_consent", "retrieve_rules"]
+__all__ = [
+    "get_customer",
+    "get_all_customers",
+    "get_purchase_history",
+    "check_consent",
+    "retrieve_rules",
+]
