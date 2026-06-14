@@ -173,6 +173,29 @@ pytest
 
 ---
 
+## Testing & Reliability
+
+The agent's safety-critical logic is covered by an automated `pytest` suite. The tests
+run offline — the NVIDIA LLM and RAG retrieval are mocked — so they are fast,
+deterministic, and need no API key or network. Their job is to catch regressions: if the
+agent logic changes and breaks one of these guardrails, a test fails immediately.
+
+The suite covers:
+- **Consent gating** — a consent-off customer receives only the generic offer, with no personalization applied.
+- **Segment routing** — customers are classified (new, lapsing, near-threshold, established) and sent down the matching rule path.
+- **Multi-flag consent constraints** — the email and data-sharing flags produce the correct restrictions (no email channel when email is off; first-party only when data-sharing is off).
+- **Self-critique loop** — the validator flags ungrounded rewards, consent violations, and schema errors, and the agent revises before finalizing.
+
+These tests verify the deterministic guardrails and the output schema. They do not judge
+the quality of the LLM's reasoning or wording — only that the rules around it hold. Run
+them with:
+
+```bash
+pytest
+```
+
+---
+
 ## Example Output
 
 **Personalized customer (consent granted):**
