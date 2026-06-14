@@ -17,46 +17,39 @@ rules via RAG, and produces a tailored journey — while strictly respecting pri
 
 ## Key Features
 
-- **Purchase history analysis** — understands buying patterns and frequency.
 - **Consent-aware gating** *(differentiator)* — if `consent_flags.personalization == false`,
   the agent returns only a **generic** offer and stops. No personalization without consent.
+- **Multi-flag consent reasoning** — with `email_marketing` off it proposes no email channel;
+  with `data_sharing` off it stays first-party only. The output records how consent shaped it.
+- **Dynamic tool routing** — LangGraph conditional edges classify each customer (new, lapsing,
+  near-threshold, established) and route to a situation-specific rule path. Not a fixed pipeline.
 - **Loyalty rules retrieval (RAG)** — FAISS vector store over the rules document, using
   NVIDIA NIM embeddings.
-- **Agentic reasoning loop** — LangGraph observe → reason → act, not a single prompt.
+- **Self-critique loop** — a validation node checks reward grounding, consent compliance, and
+  schema; the agent revises and re-validates (≤2 retries). Output is Pydantic-enforced.
 - **Structured journey output** — tier, recommended action, rewards with reasons,
-  next-best-offer, and a personalized message.
-- **Demo + API** — Streamlit app and a FastAPI `POST /generate-journey` endpoint.
+  next-best-offer, personalized message, plus segment, consent notes, and validation result.
+- **Demo + API** — a premium React "Customer Journey Studio" (primary) and a Streamlit backup,
+  over a FastAPI service (`POST /generate-journey`, `GET /customers`, `GET /health`).
 
 ---
 
 ## Architecture
 
 ```
-            ┌──────────────────────────────┐
-            │   USER / API  (customer_id)   │
-            └───────────────┬──────────────┘
-                            ↓
-            ┌──────────────────────────────┐
-            │       LOYALTY AGENT           │
-            │  NVIDIA NIM LLM + LangGraph   │
-            │  Observe → Reason → Act       │
-            └───┬──────────┬──────────┬─────┘
-                ↓          ↓          ↓
-          ┌─────────┐ ┌─────────┐ ┌──────────┐
-          │ Tool 1  │ │ Tool 2  │ │ Tool 3   │
-          │ Purchase│ │ Consent │ │ Rules    │
-          │ history │ │ check   │ │ (RAG)    │
-          └─────────┘ └─────────┘ └──────────┘
-                ↓          ↓          ↓
-          ┌──────────────────────────────────┐
-          │ DATA: customers.json, rules.md    │
-          │ FAISS index (NIM embeddings)      │
-          └──────────────────────────────────┘
-                            ↓
-          ┌──────────────────────────────────┐
-          │ OUTPUT: Personalized Journey JSON │
-          │ → Streamlit dashboard             │
-          └──────────────────────────────────┘
+   USER · React Studio / API  (customer_id)
+                 ↓
+   CONSENT GATE ─────────────► personalization off → generic offer, STOP
+                 ↓ (consent on)
+   CLASSIFY + ROUTE            new · lapsing · near-threshold · established
+                 ↓             segment-specific rules (FAISS RAG, NIM embeddings)
+   DRAFT (NVIDIA NIM LLM)      honors consent constraints
+                 ↓
+   VALIDATE ⇄ REVISE           grounding · consent · schema (≤ 2 retries)
+                 ↓
+   FINALIZE (Pydantic) ──────► Journey JSON → React Studio / Streamlit
+
+   DATA: customers.json (or CUSTOMERS_FILE) · loyalty_rules.md · FAISS index
 ```
 
 ## Tech Stack
@@ -66,11 +59,13 @@ rules via RAG, and produces a tailored journey — while strictly respecting pri
 | LLM | NVIDIA NIM — `meta/llama-3.1-70b-instruct` |
 | Embeddings | NVIDIA NIM — `nvidia/nv-embedqa-e5-v5` |
 | Agent framework | LangGraph / LangChain |
+| Output schema | Pydantic |
 | Vector store | FAISS (`faiss-cpu`) |
 | Backend API | FastAPI + Uvicorn |
-| Demo UI | Streamlit |
-| Data | JSON + Markdown |
-| Language | Python 3.10+ |
+| Studio UI | React + Vite + Tailwind |
+| Backup UI | Streamlit |
+| Data | JSON + Markdown (swappable via `CUSTOMERS_FILE`) |
+| Language | Python 3.10+ / TypeScript |
 
 ---
 
@@ -85,12 +80,14 @@ rules via RAG, and produces a tailored journey — while strictly respecting pri
 ├── data/customers.json          # 5 curated demo customers (incl. one consent-off)
 ├── data/loyalty_rules.md        # loyalty rules document (RAG source)
 ├── docs/PRD.md                  # Product Requirements Document
-├── scripts/generate_customers.py# synthetic data generator (scalability)
+├── scripts/generate_customers.py        # synthetic data generator (scalability)
+├── scripts/ingest_customer_personality.py # Kaggle dataset -> agent schema
+├── scripts/demo_agent.py                # live demo of the three agentic behaviors
 ├── src/config.py                # NIM client + configurable data source
-├── src/agent.py                 # LangGraph loyalty agent
+├── src/agent.py                 # LangGraph agent: routing, multi-flag consent, self-critique
 ├── src/rag.py                   # FAISS RAG pipeline (NIM embeddings)
 ├── src/tools.py                 # agent tools
-├── tests/test_agent.py          # pytest: consent-off + personalized
+├── tests/                       # pytest: consent, routing, multi-flag consent, self-critique
 ├── start-demo.ps1               # one-command demo launcher (backend + studio)
 ├── .env.example                 # NVIDIA_API_KEY template
 └── requirements.txt
@@ -140,6 +137,7 @@ curl -X POST http://localhost:8000/generate-journey \
   -d '{"customer_id": "C001"}'
 ```
 Errors: `404` if the customer is unknown, `500` on LLM / retrieval failure.
+Also available: `GET /customers` (list for the UI) and `GET /health`.
 
 **Run the Customer Journey Studio (premium React UI):**
 
@@ -203,6 +201,11 @@ pytest
 {
   "customer_id": "C001",
   "personalization_applied": true,
+  "segment": "near_threshold",
+  "consent_flags": { "personalization": true, "email_marketing": true, "data_sharing": false },
+  "consent_notes": "email-channel offers allowed; data sharing OFF - first-party rewards only",
+  "validation_passed": true,
+  "reasoning": "Rewards grounded in retrieved rules and compliant with consent flags; validation passed on attempt 1.",
   "loyalty_journey": {
     "current_tier": "silver",
     "recommended_action": "Promote toward Gold (180 points away)",
@@ -221,6 +224,8 @@ pytest
 {
   "customer_id": "C004",
   "personalization_applied": false,
+  "segment": "consent_off",
+  "validation_passed": true,
   "loyalty_journey": {
     "current_tier": "silver",
     "recommended_action": "Show the standard program offer (personalization is turned off).",
@@ -243,6 +248,18 @@ Point the agent, API, and UI at it with no code changes via an env var:
 ```bash
 # .env
 CUSTOMERS_FILE=data/customers_large.json
+```
+
+To run on a **real** dataset, ingest the Kaggle *Customer Personality Analysis* set
+(place `marketing_campaign.csv` in `data/`) — it aggregates per-customer category spend
+into the agent's schema and synthesizes the missing consent flags:
+```bash
+python scripts/ingest_customer_personality.py   # -> data/customers_personality.json
+```
+
+See the three agentic behaviors on the current dataset with:
+```bash
+python scripts/demo_agent.py
 ```
 
 ---

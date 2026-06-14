@@ -4,15 +4,15 @@
 **Domain:** Retail & E-commerce
 **Category:** Agentic AI
 **Submission:** NVIDIA Final Project
-**Version:** 1.0
-**Author:** _[Your Name]_
-**Date:** _[Fill in]_
+**Version:** 1.1
+**Author:** Priyanka M
+**Date:** 2026-06-14
 
 ---
 
 ## 1. Overview
 
-PS100 is an **agentic AI system** for the retail and e-commerce domain. It builds an
+LoyaltyForge (PS100) is an **agentic AI system** for the retail and e-commerce domain. It builds an
 autonomous **loyalty agent** that creates individualized reward journeys for customers
 based on their purchase history and explicit consent preferences.
 
@@ -40,8 +40,8 @@ An agentic AI that:
 ### Goals
 - Build a working agent that autonomously generates a personalized loyalty journey per customer.
 - Use **NVIDIA NIM** for both LLM inference and embeddings (end-to-end NVIDIA stack).
-- Enforce **consent-aware personalization** (no personalization without consent).
-- Provide a clickable demo (Streamlit) and a callable API (FastAPI).
+- Enforce **consent-aware personalization** (no personalization without consent; honor secondary flags).
+- Provide a clickable demo (React Customer Journey Studio + Streamlit) and a callable API (FastAPI).
 - Ship a clean, documented GitHub repository.
 
 ### Non-Goals (out of scope for this version)
@@ -68,58 +68,73 @@ An agentic AI that:
 The agent reads a customer's transaction history (items, categories, amounts, dates) to
 understand buying patterns and frequency.
 
-### F2 — Consent-Aware Gating *(critical / differentiator)*
-Before any personalization, the agent checks `consent_flags.personalization`.
-If `false`, it returns only a **generic** offer and stops. This is a responsible-AI feature.
+### F2 — Consent-Aware Gating & Multi-Flag Reasoning *(critical / differentiator)*
+Before any personalization, the agent checks `consent_flags.personalization`. If `false`,
+it returns only a **generic** offer and stops. When personalization is allowed, the agent
+also reasons over the secondary flags: with `email_marketing` off it proposes no email-based
+offers or channels, and with `data_sharing` off it uses first-party data only. The output
+records how the consent flags shaped the journey. This is a responsible-AI feature.
 
 ### F3 — Loyalty Rules Retrieval (RAG)
 Loyalty rules are stored as a document and retrieved via a FAISS vector store using NVIDIA
 NIM embeddings, so the agent grounds its decisions in the actual program rules.
 
-### F4 — Agentic Reasoning Loop
-Using LangGraph, the agent observes the customer state, chooses which tools to call, and
-reasons over the results — it is not a single prompt-response chatbot.
+### F4 — Agentic Reasoning with Dynamic Routing
+Using LangGraph conditional edges, the agent classifies each customer's situation
+(new, lapsing, near a tier threshold, or established) and routes to a situation-specific
+rule-retrieval path — it is not a single fixed pipeline or a prompt-response chatbot.
+Consent is always the first, non-negotiable gate.
 
-### F5 — Structured Loyalty Journey Output
-The agent outputs structured JSON: current tier, recommended action, rewards with reasons,
-next-best-offer, and a personalized customer message.
+### F5 — Structured, Schema-Validated Output
+The agent outputs structured JSON (current tier, recommended action, rewards with reasons,
+next-best-offer, personalized message) plus the routing `segment`, the `consent_flags` and
+`consent_notes`, and a `validation_passed` / `reasoning` pair. The full response is enforced
+by Pydantic models before it leaves the agent.
 
-### F6 — Demo Interface
-A Streamlit app lets a user select a customer and view the generated journey instantly.
+### F6 — Demo Interfaces
+A premium React dashboard (the "Customer Journey Studio") is the primary demo; a simpler
+Streamlit app is kept as a backup. Both let a user select a customer and view the generated
+journey, with consent state shown explicitly.
 
-### F7 — API Endpoint
-A FastAPI `POST /generate-journey` endpoint returns the journey JSON for programmatic use.
+### F7 — API Endpoints
+A FastAPI service exposes `POST /generate-journey` (the journey JSON), `GET /customers`
+(the customer list for the UI), and `GET /health`.
+
+### F8 — Self-Critique & Validation Loop
+After drafting a journey, a validation node checks that every reward is grounded in the
+retrieved rules, that no recommendation violates a consent flag, and that the output matches
+the schema. On failure the agent revises and re-validates (up to two retries) before finalizing.
 
 ---
 
 ## 5. System Architecture
 
 ```
-            ┌──────────────────────────────┐
-            │   USER / API  (customer_id)   │
-            └───────────────┬──────────────┘
-                            ↓
-            ┌──────────────────────────────┐
-            │       LOYALTY AGENT           │
-            │  NVIDIA NIM LLM + LangGraph   │
-            │  Observe → Reason → Act       │
-            └───┬──────────┬──────────┬─────┘
-                ↓          ↓          ↓
-          ┌─────────┐ ┌─────────┐ ┌──────────┐
-          │ Tool 1  │ │ Tool 2  │ │ Tool 3   │
-          │ Purchase│ │ Consent │ │ Rules    │
-          │ history │ │ check   │ │ (RAG)    │
-          └─────────┘ └─────────┘ └──────────┘
-                ↓          ↓          ↓
-          ┌──────────────────────────────────┐
-          │ DATA: customers.json, rules.md    │
-          │ FAISS index (NIM embeddings)      │
-          └──────────────────────────────────┘
-                            ↓
-          ┌──────────────────────────────────┐
-          │ OUTPUT: Personalized Journey JSON │
-          │ → Streamlit dashboard             │
-          └──────────────────────────────────┘
+        ┌──────────────────────────────────┐
+        │  USER · React Studio / API        │  (customer_id)
+        └──────────────────┬───────────────┘
+                           ↓
+        ┌──────────────────────────────────┐
+        │  CONSENT GATE                     │  personalization off → generic offer, STOP
+        └──────────────────┬───────────────┘
+                           ↓ (consent on)
+        ┌──────────────────────────────────┐
+        │  CLASSIFY + ROUTE                 │  new · lapsing · near-threshold · established
+        └──────────────────┬───────────────┘
+                           ↓  segment-specific rules (FAISS RAG, NIM embeddings)
+        ┌──────────────────────────────────┐
+        │  DRAFT  (NVIDIA NIM LLM)          │  honors consent constraints
+        └──────────────────┬───────────────┘
+                           ↓
+        ┌──────────────────────────────────┐
+        │  VALIDATE  ⇄  REVISE              │  grounding · consent · schema (≤ 2 retries)
+        └──────────────────┬───────────────┘
+                           ↓
+        ┌──────────────────────────────────┐
+        │  FINALIZE (Pydantic-enforced)     │  → Journey JSON → React Studio / Streamlit
+        └──────────────────────────────────┘
+
+   DATA: customers.json (or CUSTOMERS_FILE) · loyalty_rules.md · FAISS index
 ```
 
 ---
@@ -130,12 +145,14 @@ A FastAPI `POST /generate-journey` endpoint returns the journey JSON for program
 |---|---|---|
 | LLM | NVIDIA NIM — `meta/llama-3.1-70b-instruct` | Core NVIDIA requirement; reasoning engine |
 | Embeddings | NVIDIA NIM — `nvidia/nv-embedqa-e5-v5` | Keeps stack fully NVIDIA |
-| Agent framework | LangGraph / LangChain | Builds the reason→act loop |
+| Agent framework | LangGraph / LangChain | Routing, validation, reason→act loop |
+| Output schema | Pydantic | Enforces the response schema |
 | Vector store | FAISS (faiss-cpu) | Lightweight RAG, no server needed |
 | Backend API | FastAPI + Uvicorn | Clean, fast API |
-| Demo UI | Streamlit | Quick, interactive demo |
-| Data | JSON + Markdown | No DB setup for MVP |
-| Language | Python 3.10+ | Standard |
+| Studio UI | React + Vite + Tailwind | Primary demo dashboard |
+| Backup UI | Streamlit | Simple fallback demo |
+| Data | JSON + Markdown (swappable via `CUSTOMERS_FILE`) | No DB setup for MVP; dataset configurable |
+| Language | Python 3.10+ / TypeScript | Backend / frontend |
 
 ---
 
@@ -159,11 +176,22 @@ A FastAPI `POST /generate-journey` endpoint returns the journey JSON for program
 }
 ```
 
+Optional `persona` and `avatar` fields may be added per customer to enrich the UI; the
+agent ignores them.
+
 ### Loyalty Journey Output
+The `loyalty_journey` object keeps the five core keys; the surrounding fields are added by
+routing (`segment`), consent reasoning (`consent_flags`, `consent_notes`), and the
+validation loop (`validation_passed`, `reasoning`). The whole response is Pydantic-validated.
 ```json
 {
   "customer_id": "C001",
   "personalization_applied": true,
+  "segment": "near_threshold",
+  "consent_flags": { "personalization": true, "email_marketing": true, "data_sharing": false },
+  "consent_notes": "email-channel offers allowed; data sharing OFF - first-party rewards only",
+  "validation_passed": true,
+  "reasoning": "Rewards grounded in retrieved rules and compliant with consent flags; validation passed on attempt 1.",
   "loyalty_journey": {
     "current_tier": "silver",
     "recommended_action": "Promote toward Gold (180 points away)",
@@ -182,12 +210,19 @@ A FastAPI `POST /generate-journey` endpoint returns the journey JSON for program
 ## 8. Agent Logic Flow
 
 1. **Input:** `customer_id`.
-2. **Consent check (gate):** load consent flags.
-   - If `personalization == false` → return generic offer, set `personalization_applied: false`, **stop**.
-3. **Gather context:** fetch purchase history + retrieve relevant loyalty rules (RAG).
-4. **Reason:** LLM analyzes patterns, tier status, point thresholds, and rules.
-5. **Generate:** produce structured loyalty journey JSON.
-6. **Output:** return JSON to API / display in Streamlit.
+2. **Consent gate (always first):** load consent flags.
+   - If `personalization == false` → return a generic offer, `personalization_applied: false`, **stop**.
+3. **Classify & route:** observe the customer and pick a strategy — new, lapsing, near a tier
+   threshold, or established — then route (LangGraph conditional edges) to the matching
+   rule-retrieval path (RAG over the rules document).
+4. **Draft:** the NIM LLM reasons over purchase history, tier, points, retrieved rules, and the
+   consent constraints (no email channel if `email_marketing` off; first-party only if
+   `data_sharing` off) and produces a structured journey.
+5. **Validate & revise:** check that every reward is grounded in the rules, that no
+   recommendation violates a consent flag, and that the output matches the schema. On failure,
+   revise and re-validate (up to two retries).
+6. **Finalize:** enforce the schema with Pydantic and return the journey JSON (with `segment`,
+   `consent_notes`, `validation_passed`, `reasoning`) to the API / UI.
 
 ---
 
@@ -198,13 +233,19 @@ A FastAPI `POST /generate-journey` endpoint returns the journey JSON for program
 ```json
 { "customer_id": "C001" }
 ```
-**Response (200)**
+**Response (200)** — see section 7 for the full shape.
 ```json
-{ "customer_id": "C001", "personalization_applied": true, "loyalty_journey": { ... } }
+{ "customer_id": "C001", "personalization_applied": true, "validation_passed": true, "loyalty_journey": { ... } }
 ```
 **Errors**
 - `404` — customer not found
 - `500` — LLM / retrieval failure
+
+### `GET /customers`
+Returns the full customer list (used by the dashboard dropdown and profile panel).
+
+### `GET /health`
+Returns `{ "status": "ok" }`.
 
 ---
 
@@ -212,9 +253,10 @@ A FastAPI `POST /generate-journey` endpoint returns the journey JSON for program
 
 | Metric | Target |
 |---|---|
-| Agent generates valid journey for all 5 mock customers | 100% |
+| Agent generates a valid journey for every customer in the dataset | 100% |
 | Consent-off customer never receives personalized offers | 100% (hard requirement) |
-| Output is valid, parseable JSON | 100% |
+| Output is valid JSON matching the Pydantic schema | 100% |
+| Automated test suite passes (consent, routing, multi-flag consent, self-critique) | Yes |
 | End-to-end demo runs without crashing | Yes |
 | Repo has README + setup that a stranger can follow | Yes |
 
@@ -262,13 +304,13 @@ See project plan; critical path is data → NIM client → tools → agent → U
 ---
 
 ## 14. Deliverables Checklist
-- [ ] GitHub repository (public)
-- [ ] Working agent (`src/agent.py`)
-- [ ] RAG pipeline (`src/rag.py`)
-- [ ] FastAPI endpoint (`api/main.py`)
-- [ ] Streamlit demo (`app/streamlit_app.py`)
-- [ ] 5 mock customers incl. one consent-off
-- [ ] Tests (`tests/`)
-- [ ] README with architecture + setup
-- [ ] This PRD (`docs/PRD.md`)
+- [x] GitHub repository (private)
+- [x] Working agent (`src/agent.py`) — consent gate, dynamic routing, multi-flag consent, self-critique loop
+- [x] RAG pipeline (`src/rag.py`)
+- [x] FastAPI endpoints (`api/main.py`) — generate-journey, customers, health
+- [x] React Customer Journey Studio (`web/`) + Streamlit backup (`app/streamlit_app.py`)
+- [x] Demo customers incl. one consent-off (`data/customers.json`); scalable via `CUSTOMERS_FILE`
+- [x] Tests (`tests/`) — 17 offline tests
+- [x] README with architecture, setup, and Testing & Reliability
+- [x] This PRD (`docs/PRD.md`)
 - [ ] Demo video / screenshots
