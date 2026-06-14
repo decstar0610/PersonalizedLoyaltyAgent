@@ -11,3 +11,7 @@ web/dist/
 
 # Generated synthetic dataset (reproducible via scripts/generate_customers.py)
 data/customers_large.json
+
+# Real/large datasets — raw download + ingested output (not committed)
+data/marketing_campaign.csv
+data/customers_personality.json

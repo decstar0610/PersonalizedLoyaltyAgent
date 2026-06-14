@@ -6,12 +6,20 @@ agent has a single tool module.
 """
 
 import json
+from functools import lru_cache
 
 from src import config
 from src.rag import retrieve_rules  # re-exported as the third tool
 
 
+@lru_cache(maxsize=1)
 def _load_customers() -> list[dict]:
+    """Load and cache the customer file.
+
+    Cached because the agent looks customers up several times per request; with a
+    large dataset (e.g. the ingested Kaggle set) re-reading/parsing each time is
+    wasteful. Restart the process to pick up a changed CUSTOMERS_FILE.
+    """
     with open(config.CUSTOMERS_FILE, encoding="utf-8") as f:
         return json.load(f)
 
