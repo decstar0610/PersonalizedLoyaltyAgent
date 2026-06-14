@@ -1,6 +1,6 @@
 # Product Requirements Document (PRD)
 
-## Project: PS100 — Personalized Loyalty Agent
+## Project: LoyaltyForge — Personalized Reward Journeys (PS100)
 **Domain:** Retail & E-commerce
 **Category:** Agentic AI
 **Submission:** NVIDIA Final Project

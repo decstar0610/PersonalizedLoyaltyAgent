@@ -175,7 +175,7 @@ export default function App() {
     return (
       <div className="relative z-10 flex min-h-screen items-center justify-center text-navy-900/60">
         <Sparkles className="mr-2 h-5 w-5 animate-pulse text-gold" />
-        Opening the Journey Studio…
+        Opening LoyaltyForge…
       </div>
     );
   }
@@ -212,11 +212,11 @@ export default function App() {
             </div>
             <div>
               <h1 className="text-[15px] font-bold tracking-tight">
-                Customer Journey Studio
-                <span className="ml-2 text-gold-300/80 font-medium">· PS100</span>
+                LoyaltyForge
+                <span className="ml-2 text-gold-300/80 font-medium">· Reward Journeys</span>
               </h1>
               <p className="text-[10px] uppercase tracking-[0.22em] text-ivory/40">
-                Personalized Loyalty Agent — NVIDIA NIM
+                Personalized Reward Journeys — NVIDIA NIM
               </p>
             </div>
           </div>
@@ -233,7 +233,7 @@ export default function App() {
                 className="w-full appearance-none rounded-lg border border-ivory/15 bg-navy-800 py-2.5 pl-4 pr-10 text-sm font-medium text-ivory outline-none transition focus:border-gold/50 sm:w-72"
               >
                 {customers.map((c) => (
-                  <option key={c.id} value={c.id} className="text-navy-900">
+                  <option key={c.id} value={c.id} className="text-ivory">
                     {c.id} · {c.name} ({c.tier})
                   </option>
                 ))}
@@ -639,7 +639,7 @@ export default function App() {
 
       <footer className="mx-auto mt-16 max-w-6xl px-6">
         <div className="border-t border-navy-900/10 pt-6 text-center font-mono text-[10px] tracking-wider text-navy-900/35">
-          PS100 · Customer Journey Studio — NVIDIA NIM + LangGraph + FAISS RAG · consent-aware by design
+          LoyaltyForge · Personalized Reward Journeys — NVIDIA NIM + LangGraph + FAISS RAG · consent-aware by design
         </div>
       </footer>
     </div>

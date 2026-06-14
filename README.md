@@ -1,4 +1,6 @@
-# PS100 — Personalized Loyalty Agent
+# LoyaltyForge — Personalized Reward Journeys
+
+> _NVIDIA final-project submission · PS100_
 
 An **agentic AI system** for retail & e-commerce that autonomously generates an
 individualized loyalty reward journey for each customer based on their purchase history,
