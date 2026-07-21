@@ -26,7 +26,17 @@ import {
   Users,
   Gem,
   ChevronDown,
+  GitBranch,
+  ShieldAlert,
 } from "lucide-react";
+
+// Humanize the backend's snake_case segment into a display label.
+function segmentLabel(seg: string): string {
+  return seg
+    .split("_")
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
 
 /* ----------------------------- small UI atoms ----------------------------- */
 
@@ -501,6 +511,70 @@ export default function App() {
                 );
               })}
             </div>
+
+            {/* Real agent decision — surfaced from the backend once it has run. */}
+            {result && (
+              <div className="mt-5 grid gap-3 border-t border-ivory/10 pt-5 sm:grid-cols-3">
+                {/* Dynamic routing */}
+                <div className="rounded-xl border border-ivory/10 bg-navy-800/50 p-4">
+                  <div className="mb-2 flex items-center gap-2 text-ivory/45">
+                    <GitBranch className="h-3.5 w-3.5" />
+                    <span className="text-[10px] font-semibold uppercase tracking-[0.16em]">Dynamic route</span>
+                  </div>
+                  {result.segment ? (
+                    <span className="inline-flex items-center rounded-md bg-gold/15 px-2.5 py-1 text-sm font-semibold text-gold-300">
+                      {segmentLabel(result.segment)}
+                    </span>
+                  ) : (
+                    <span className="text-sm text-ivory/40">—</span>
+                  )}
+                  <p className="mt-2 text-[11px] leading-relaxed text-ivory/45">
+                    LangGraph picked this branch from the member's segment.
+                  </p>
+                </div>
+
+                {/* Self-critique / validation */}
+                <div className="rounded-xl border border-ivory/10 bg-navy-800/50 p-4">
+                  <div className="mb-2 flex items-center gap-2 text-ivory/45">
+                    <ShieldCheck className="h-3.5 w-3.5" />
+                    <span className="text-[10px] font-semibold uppercase tracking-[0.16em]">Self-critique</span>
+                  </div>
+                  {result.validationPassed === null ? (
+                    <span className="text-sm text-ivory/40">—</span>
+                  ) : result.validationPassed ? (
+                    <span className="inline-flex items-center gap-1.5 rounded-md bg-emerald-500/15 px-2.5 py-1 text-sm font-semibold text-emerald-300">
+                      <Check className="h-3.5 w-3.5" /> Validated
+                    </span>
+                  ) : (
+                    <span className="inline-flex items-center gap-1.5 rounded-md bg-amber-500/15 px-2.5 py-1 text-sm font-semibold text-amber-300">
+                      <ShieldAlert className="h-3.5 w-3.5" /> Needs review
+                    </span>
+                  )}
+                  <p className="mt-2 text-[11px] leading-relaxed text-ivory/45">
+                    Output passed the validate → revise compliance loop.
+                  </p>
+                </div>
+
+                {/* Consent reasoning */}
+                <div className="rounded-xl border border-ivory/10 bg-navy-800/50 p-4">
+                  <div className="mb-2 flex items-center gap-2 text-ivory/45">
+                    <ShieldCheck className="h-3.5 w-3.5" />
+                    <span className="text-[10px] font-semibold uppercase tracking-[0.16em]">Consent decision</span>
+                  </div>
+                  <p className="text-[13px] leading-relaxed text-ivory/80">
+                    {result.consentNotes || "Personalization consent applied as recorded."}
+                  </p>
+                </div>
+              </div>
+            )}
+
+            {result?.reasoning && (
+              <p className="mt-3 rounded-xl bg-navy-800/40 px-4 py-3 text-xs italic leading-relaxed text-ivory/55">
+                <span className="font-semibold not-italic text-ivory/70">Agent rationale: </span>
+                {result.reasoning}
+              </p>
+            )}
+
             <p className="mt-5 border-t border-ivory/10 pt-4 text-xs text-ivory/40">
               Engine: LangGraph · NVIDIA NIM <span className="text-ivory/60">meta/llama-3.1-70b-instruct</span> ·
               FAISS retrieval with <span className="text-ivory/60">nv-embedqa-e5-v5</span> embeddings.

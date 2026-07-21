@@ -30,6 +30,12 @@ interface ApiCustomer {
 interface ApiJourney {
   customer_id: string;
   personalization_applied: boolean;
+  // Agentic reasoning fields the backend computes (dynamic routing, consent
+  // reasoning, self-critique loop). Optional so older responses still parse.
+  segment?: string;
+  consent_notes?: string;
+  validation_passed?: boolean;
+  reasoning?: string;
   loyalty_journey: {
     current_tier: string;
     recommended_action: string;
@@ -107,6 +113,11 @@ export interface JourneyResult {
   standardMessage: string;
   standardOfferTitle: string;
   recommendedAction: string;
+  // Agentic reasoning surfaced from the backend:
+  segment: string | null; // dynamic LangGraph route, e.g. "near_threshold"
+  consentNotes: string | null; // multi-flag consent reasoning
+  validationPassed: boolean | null; // self-critique validate→revise outcome
+  reasoning: string | null; // one-line rationale incl. attempt count
 }
 
 export async function generateJourney(
@@ -155,5 +166,9 @@ export async function generateJourney(
     standardMessage: lj.message,
     standardOfferTitle: lj.next_best_offer,
     recommendedAction: lj.recommended_action,
+    segment: data.segment ?? null,
+    consentNotes: data.consent_notes ?? null,
+    validationPassed: data.validation_passed ?? null,
+    reasoning: data.reasoning ?? null,
   };
 }
