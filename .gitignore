@@ -15,3 +15,8 @@ data/customers_large.json
 # Real/large datasets — raw download + ingested output (not committed)
 data/marketing_campaign.csv
 data/customers_personality.json
+
+# Local scratch: ad-hoc screenshot + headless-capture helper (superseded by
+# docs/screenshots/ and the tracked capture flow)
+.agent-demo.png
+.cdp-shot.mjs
