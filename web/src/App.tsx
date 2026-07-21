@@ -11,6 +11,7 @@ import {
   behavioralSummary,
 } from "./studio";
 import { Reveal, StaggerGroup, StaggerItem, CountUp } from "./motion";
+import { AmbientOrbs, Hero } from "./cinematic";
 import {
   Sparkles,
   ShieldCheck,
@@ -91,12 +92,12 @@ function ScrollProgress() {
 
 function SectionHeading({ index, title, kicker }: { index: string; title: string; kicker: string }) {
   return (
-    <div className="flex items-end justify-between gap-6 mb-5">
-      <div className="flex items-baseline gap-3">
-        <span className="font-bold text-gold text-sm tracking-[0.2em]">{index}</span>
+    <div className="flex items-end justify-between gap-6 mb-6">
+      <div className="flex items-baseline gap-4">
+        <span className="font-serif text-2xl italic text-gold/70">{index}</span>
         <div>
-          <h2 className="text-xl font-bold tracking-tight text-navy-900">{title}</h2>
-          <p className="text-xs text-navy-900/45 mt-0.5">{kicker}</p>
+          <h2 className="text-2xl font-bold tracking-tight text-navy-900 md:text-[28px]">{title}</h2>
+          <p className="text-xs text-navy-900/45 mt-1 uppercase tracking-[0.14em]">{kicker}</p>
         </div>
       </div>
       <div className="h-px flex-1 max-w-[40%] bg-gradient-to-r from-gold/40 to-transparent hidden md:block" />
@@ -302,12 +303,19 @@ export default function App() {
   const impact = businessImpact(activeCustomer, result ? result.personalizationApplied : consentGranted);
   const journey = result?.journey ?? null;
 
+  const scrollToStudio = () =>
+    document.getElementById("studio")?.scrollIntoView({ behavior: "smooth", block: "start" });
+
   return (
-    <div className="relative z-10 min-h-screen pb-20">
+    <>
+      <AmbientOrbs />
       <ScrollProgress />
+      <Hero memberCount={customers.length} onEnter={scrollToStudio} />
+
+      <div className="relative z-10 pb-20">
 
       {/* ============================ HEADER ============================ */}
-      <header className="sticky top-0 z-30 overflow-hidden border-b border-ivory/10 bg-navy-900/95 text-ivory backdrop-blur-md">
+      <header id="studio" className="sticky top-0 z-30 overflow-hidden border-b border-ivory/10 bg-navy-900/95 text-ivory backdrop-blur-md">
         <div className="aurora opacity-60" />
         <div className="relative mx-auto flex max-w-6xl flex-col gap-5 px-6 py-5 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-3.5">
@@ -875,6 +883,7 @@ export default function App() {
           LoyaltyForge · Personalized Reward Journeys — NVIDIA NIM + LangGraph + FAISS RAG · consent-aware by design
         </div>
       </footer>
-    </div>
+      </div>
+    </>
   );
 }
