@@ -1,0 +1,21 @@
+# Keep the backend image lean — exclude the frontend, local envs, and artifacts.
+.git
+.gitignore
+.env
+venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+faiss_index/
+
+# Frontend (deployed separately to Vercel/Netlify)
+web/node_modules/
+web/dist/
+
+# Local scratch & submission collateral (not needed at runtime)
+.agent-demo.png
+.cdp-shot.mjs
+*.pptx
+*.docx
+docs/screenshots/

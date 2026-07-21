@@ -1,0 +1,25 @@
+# Render blueprint for the LoyaltyForge backend (Phase 0).
+# In the Render dashboard: New > Blueprint > point at this repo. Then set the
+# secret env vars marked `sync: false` (they are NOT stored in the repo).
+services:
+  - type: web
+    name: loyaltyforge-api
+    runtime: docker
+    plan: free            # free tier sleeps ~15 min idle (cold start); upgrade later
+    healthCheckPath: /health
+    envVars:
+      # Secret — paste your NVIDIA NIM key in the dashboard. Never commit it.
+      - key: NVIDIA_API_KEY
+        sync: false
+      # Comma-separated exact origins of the deployed frontend, e.g.
+      # https://loyaltyforge.vercel.app  (set in the dashboard after deploying the UI).
+      - key: ALLOWED_ORIGINS
+        sync: false
+      # Which customer dataset to serve. Curated 5 by default; 200-row set here.
+      - key: CUSTOMERS_FILE
+        value: data/customers_large.json
+      # Rate limit for the paid /generate-journey endpoint (optional overrides).
+      - key: RATE_LIMIT_PER_WINDOW
+        value: "20"
+      - key: RATE_LIMIT_WINDOW_SECONDS
+        value: "600"
