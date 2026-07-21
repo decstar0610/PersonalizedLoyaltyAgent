@@ -10,9 +10,12 @@
 
 import { Customer, LoyaltyTier, CustomerLoyaltyJourney } from "./types";
 
-// FastAPI runs on :8000 (CORS is enabled there for the browser).
-export const API_BASE =
-  (import.meta as any).env?.VITE_API_BASE || "http://localhost:8000";
+// FastAPI runs on :8000 locally; in prod VITE_API_BASE points at the deployed
+// backend. Strip any trailing slash so `${API_BASE}/customers` can't become a
+// broken `//customers` (which 404s) if the env value was entered with a slash.
+export const API_BASE = (
+  (import.meta as any).env?.VITE_API_BASE || "http://localhost:8000"
+).replace(/\/+$/, "");
 
 // --- Raw backend shapes -------------------------------------------------
 

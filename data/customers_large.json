@@ -1,0 +1,8110 @@
+[
+  {
+    "customer_id": "L00001",
+    "name": "Dev",
+    "purchase_history": [
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 8324,
+        "date": "2025-04-25"
+      },
+      {
+        "item": "bluetooth speaker",
+        "category": "electronics",
+        "amount": 3658,
+        "date": "2025-12-13"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1309
+  },
+  {
+    "customer_id": "L00002",
+    "name": "Ishaan",
+    "purchase_history": [
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 16859,
+        "date": "2025-11-05"
+      },
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 6815,
+        "date": "2025-11-29"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 61
+  },
+  {
+    "customer_id": "L00003",
+    "name": "Omar",
+    "purchase_history": [
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 3649,
+        "date": "2025-02-17"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 9405,
+        "date": "2025-03-21"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 12063,
+        "date": "2025-06-26"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 13
+  },
+  {
+    "customer_id": "L00004",
+    "name": "Ananya",
+    "purchase_history": [
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 23387,
+        "date": "2025-02-05"
+      },
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 9782,
+        "date": "2025-02-10"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 17802,
+        "date": "2025-05-06"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 22260,
+        "date": "2025-05-17"
+      },
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 12755,
+        "date": "2025-05-23"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 5629,
+        "date": "2025-07-09"
+      },
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 20899,
+        "date": "2025-11-13"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 255
+  },
+  {
+    "customer_id": "L00005",
+    "name": "Priya",
+    "purchase_history": [
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 7805,
+        "date": "2025-01-17"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 9073,
+        "date": "2025-02-03"
+      },
+      {
+        "item": "summer dress",
+        "category": "apparel",
+        "amount": 23824,
+        "date": "2025-06-11"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 13264,
+        "date": "2025-11-26"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1409
+  },
+  {
+    "customer_id": "L00006",
+    "name": "Tara",
+    "purchase_history": [
+      {
+        "item": "smartwatch",
+        "category": "electronics",
+        "amount": 16471,
+        "date": "2025-02-16"
+      },
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 12161,
+        "date": "2025-04-23"
+      },
+      {
+        "item": "bluetooth speaker",
+        "category": "electronics",
+        "amount": 14133,
+        "date": "2025-11-02"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 12804,
+        "date": "2025-11-02"
+      },
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 5308,
+        "date": "2025-11-18"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1103
+  },
+  {
+    "customer_id": "L00007",
+    "name": "Varun",
+    "purchase_history": [
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 14546,
+        "date": "2025-03-22"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 21303,
+        "date": "2025-06-24"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "bronze",
+    "points": 23
+  },
+  {
+    "customer_id": "L00008",
+    "name": "Aditya",
+    "purchase_history": [
+      {
+        "item": "smartwatch",
+        "category": "electronics",
+        "amount": 17678,
+        "date": "2025-01-01"
+      },
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 20789,
+        "date": "2025-06-02"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 5308,
+        "date": "2025-07-11"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1025
+  },
+  {
+    "customer_id": "L00009",
+    "name": "Ishaan",
+    "purchase_history": [
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 18891,
+        "date": "2025-02-10"
+      },
+      {
+        "item": "mechanical keyboard",
+        "category": "electronics",
+        "amount": 21918,
+        "date": "2025-09-01"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 8985,
+        "date": "2025-09-28"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 2567,
+        "date": "2025-09-30"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 629
+  },
+  {
+    "customer_id": "L00010",
+    "name": "Karan",
+    "purchase_history": [
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 7662,
+        "date": "2025-02-02"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 17259,
+        "date": "2025-08-20"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 19577,
+        "date": "2025-10-11"
+      },
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 22309,
+        "date": "2025-11-29"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1494
+  },
+  {
+    "customer_id": "L00011",
+    "name": "Meera",
+    "purchase_history": [
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 11127,
+        "date": "2025-02-06"
+      },
+      {
+        "item": "building blocks",
+        "category": "toys",
+        "amount": 17969,
+        "date": "2025-03-09"
+      },
+      {
+        "item": "building blocks",
+        "category": "toys",
+        "amount": 15798,
+        "date": "2025-07-28"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 9425,
+        "date": "2025-12-09"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "bronze",
+    "points": 120
+  },
+  {
+    "customer_id": "L00012",
+    "name": "Ananya",
+    "purchase_history": [
+      {
+        "item": "summer dress",
+        "category": "apparel",
+        "amount": 15000,
+        "date": "2025-03-13"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 8447,
+        "date": "2025-04-09"
+      },
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 24992,
+        "date": "2025-05-02"
+      },
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 2286,
+        "date": "2025-07-26"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 9427,
+        "date": "2025-08-25"
+      },
+      {
+        "item": "usb-c hub",
+        "category": "electronics",
+        "amount": 16213,
+        "date": "2025-09-04"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 21669,
+        "date": "2025-10-04"
+      },
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 14820,
+        "date": "2025-10-09"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 841
+  },
+  {
+    "customer_id": "L00013",
+    "name": "Liam",
+    "purchase_history": [
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 5372,
+        "date": "2025-04-08"
+      },
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 24809,
+        "date": "2025-06-10"
+      },
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 9647,
+        "date": "2025-08-05"
+      },
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 19442,
+        "date": "2025-09-02"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 2163,
+        "date": "2025-09-18"
+      },
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 2216,
+        "date": "2025-10-24"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 2545,
+        "date": "2025-11-01"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "bronze",
+    "points": 4
+  },
+  {
+    "customer_id": "L00014",
+    "name": "Noah",
+    "purchase_history": [
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 8844,
+        "date": "2025-04-15"
+      },
+      {
+        "item": "bluetooth speaker",
+        "category": "electronics",
+        "amount": 21451,
+        "date": "2025-06-03"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 9003,
+        "date": "2025-07-22"
+      },
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 2986,
+        "date": "2025-08-03"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1166
+  },
+  {
+    "customer_id": "L00015",
+    "name": "Sofia",
+    "purchase_history": [
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 2554,
+        "date": "2025-05-06"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 16876,
+        "date": "2025-05-16"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 938
+  },
+  {
+    "customer_id": "L00016",
+    "name": "Vikram",
+    "purchase_history": [
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 22037,
+        "date": "2025-02-23"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 619
+  },
+  {
+    "customer_id": "L00017",
+    "name": "Liam",
+    "purchase_history": [
+      {
+        "item": "air fryer",
+        "category": "home",
+        "amount": 20119,
+        "date": "2025-04-18"
+      },
+      {
+        "item": "bedsheet set",
+        "category": "home",
+        "amount": 16308,
+        "date": "2025-05-09"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 22827,
+        "date": "2025-11-21"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1133
+  },
+  {
+    "customer_id": "L00018",
+    "name": "Sofia",
+    "purchase_history": [
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 4586,
+        "date": "2025-11-23"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 566
+  },
+  {
+    "customer_id": "L00019",
+    "name": "Zara",
+    "purchase_history": [
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 22943,
+        "date": "2025-03-18"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 875
+  },
+  {
+    "customer_id": "L00020",
+    "name": "Varun",
+    "purchase_history": [
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 12248,
+        "date": "2025-01-21"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 22649,
+        "date": "2025-05-08"
+      },
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 18646,
+        "date": "2025-07-28"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 880
+  },
+  {
+    "customer_id": "L00021",
+    "name": "Zara",
+    "purchase_history": [
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 9042,
+        "date": "2025-03-23"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 6177,
+        "date": "2025-06-20"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 1568,
+        "date": "2025-08-29"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 332
+  },
+  {
+    "customer_id": "L00022",
+    "name": "Priya",
+    "purchase_history": [
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 4079,
+        "date": "2025-05-14"
+      },
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 13356,
+        "date": "2025-06-18"
+      },
+      {
+        "item": "espresso machine",
+        "category": "home",
+        "amount": 9446,
+        "date": "2025-06-29"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 22566,
+        "date": "2025-10-02"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 466
+  },
+  {
+    "customer_id": "L00023",
+    "name": "Ananya",
+    "purchase_history": [
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 14432,
+        "date": "2025-02-05"
+      },
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 22037,
+        "date": "2025-03-05"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 17336,
+        "date": "2025-10-03"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 12922,
+        "date": "2025-10-23"
+      },
+      {
+        "item": "bedsheet set",
+        "category": "home",
+        "amount": 10434,
+        "date": "2025-12-08"
+      },
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 1754,
+        "date": "2025-12-29"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 707
+  },
+  {
+    "customer_id": "L00024",
+    "name": "Karan",
+    "purchase_history": [
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 18254,
+        "date": "2025-01-01"
+      },
+      {
+        "item": "summer dress",
+        "category": "apparel",
+        "amount": 15805,
+        "date": "2025-03-28"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 24913,
+        "date": "2025-05-01"
+      },
+      {
+        "item": "air fryer",
+        "category": "home",
+        "amount": 7187,
+        "date": "2025-08-09"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 14776,
+        "date": "2025-08-15"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 20469,
+        "date": "2025-10-19"
+      },
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 17190,
+        "date": "2025-12-06"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 392
+  },
+  {
+    "customer_id": "L00025",
+    "name": "Pooja",
+    "purchase_history": [
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 14231,
+        "date": "2025-04-23"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 16499,
+        "date": "2025-07-24"
+      },
+      {
+        "item": "board game",
+        "category": "toys",
+        "amount": 15223,
+        "date": "2025-08-01"
+      },
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 21797,
+        "date": "2025-12-19"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "bronze",
+    "points": 94
+  },
+  {
+    "customer_id": "L00026",
+    "name": "Emma",
+    "purchase_history": [
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 14802,
+        "date": "2025-11-10"
+      },
+      {
+        "item": "building blocks",
+        "category": "toys",
+        "amount": 15525,
+        "date": "2025-12-08"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 510
+  },
+  {
+    "customer_id": "L00027",
+    "name": "Kavya",
+    "purchase_history": [
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 4834,
+        "date": "2025-03-19"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 23039,
+        "date": "2025-03-20"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 20837,
+        "date": "2025-05-03"
+      },
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 21194,
+        "date": "2025-05-22"
+      },
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 2838,
+        "date": "2025-05-27"
+      },
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 11305,
+        "date": "2025-06-13"
+      },
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 13894,
+        "date": "2025-07-28"
+      },
+      {
+        "item": "bluetooth speaker",
+        "category": "electronics",
+        "amount": 15854,
+        "date": "2025-08-19"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1122
+  },
+  {
+    "customer_id": "L00028",
+    "name": "Aarav",
+    "purchase_history": [
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 16213,
+        "date": "2025-01-15"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 15615,
+        "date": "2025-03-07"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 16298,
+        "date": "2025-04-23"
+      },
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 10084,
+        "date": "2025-07-19"
+      },
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 12764,
+        "date": "2025-09-02"
+      },
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 13211,
+        "date": "2025-10-31"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 22217,
+        "date": "2025-12-14"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 860
+  },
+  {
+    "customer_id": "L00029",
+    "name": "Rahul",
+    "purchase_history": [
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 12722,
+        "date": "2025-06-17"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 11010,
+        "date": "2025-06-22"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 24941,
+        "date": "2025-08-04"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 945
+  },
+  {
+    "customer_id": "L00030",
+    "name": "Noah",
+    "purchase_history": [
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 6832,
+        "date": "2025-01-11"
+      },
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 21656,
+        "date": "2025-01-21"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 10492,
+        "date": "2025-02-25"
+      },
+      {
+        "item": "mechanical keyboard",
+        "category": "electronics",
+        "amount": 4436,
+        "date": "2025-08-31"
+      },
+      {
+        "item": "air fryer",
+        "category": "home",
+        "amount": 5798,
+        "date": "2025-11-07"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 15538,
+        "date": "2025-12-25"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 106
+  },
+  {
+    "customer_id": "L00031",
+    "name": "Maya",
+    "purchase_history": [
+      {
+        "item": "building blocks",
+        "category": "toys",
+        "amount": 14570,
+        "date": "2025-04-01"
+      },
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 23145,
+        "date": "2025-06-04"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 14064,
+        "date": "2025-09-08"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 2559,
+        "date": "2025-09-17"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 11677,
+        "date": "2025-09-30"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 12168,
+        "date": "2025-11-22"
+      },
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 19701,
+        "date": "2025-12-20"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 768
+  },
+  {
+    "customer_id": "L00032",
+    "name": "Leela",
+    "purchase_history": [
+      {
+        "item": "air fryer",
+        "category": "home",
+        "amount": 8344,
+        "date": "2025-02-14"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 16276,
+        "date": "2025-04-19"
+      },
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 11452,
+        "date": "2025-05-24"
+      },
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 8208,
+        "date": "2025-07-28"
+      },
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 8290,
+        "date": "2025-08-26"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 1240,
+        "date": "2025-09-11"
+      },
+      {
+        "item": "bedsheet set",
+        "category": "home",
+        "amount": 632,
+        "date": "2025-09-22"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 24254,
+        "date": "2025-10-31"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1102
+  },
+  {
+    "customer_id": "L00033",
+    "name": "Priya",
+    "purchase_history": [
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 10639,
+        "date": "2025-03-03"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 6576,
+        "date": "2025-04-21"
+      },
+      {
+        "item": "air fryer",
+        "category": "home",
+        "amount": 8537,
+        "date": "2025-04-29"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 22968,
+        "date": "2025-05-05"
+      },
+      {
+        "item": "board game",
+        "category": "toys",
+        "amount": 3349,
+        "date": "2025-05-31"
+      },
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 23331,
+        "date": "2025-08-21"
+      },
+      {
+        "item": "bedsheet set",
+        "category": "home",
+        "amount": 12392,
+        "date": "2025-08-31"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 14242,
+        "date": "2025-10-09"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1457
+  },
+  {
+    "customer_id": "L00034",
+    "name": "Aarav",
+    "purchase_history": [
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 10204,
+        "date": "2025-01-08"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 9288,
+        "date": "2025-01-24"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 10007,
+        "date": "2025-04-27"
+      },
+      {
+        "item": "bluetooth speaker",
+        "category": "electronics",
+        "amount": 24967,
+        "date": "2025-09-09"
+      },
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 9872,
+        "date": "2025-12-24"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1074
+  },
+  {
+    "customer_id": "L00035",
+    "name": "Arjun",
+    "purchase_history": [
+      {
+        "item": "espresso machine",
+        "category": "home",
+        "amount": 8432,
+        "date": "2025-03-02"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 5271,
+        "date": "2025-03-18"
+      },
+      {
+        "item": "summer dress",
+        "category": "apparel",
+        "amount": 12764,
+        "date": "2025-08-19"
+      },
+      {
+        "item": "wireless headphones",
+        "category": "electronics",
+        "amount": 8573,
+        "date": "2025-09-02"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 13430,
+        "date": "2025-09-09"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 20167,
+        "date": "2025-11-02"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 902
+  },
+  {
+    "customer_id": "L00036",
+    "name": "Rahul",
+    "purchase_history": [
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 20796,
+        "date": "2025-04-19"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 625
+  },
+  {
+    "customer_id": "L00037",
+    "name": "Karan",
+    "purchase_history": [
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 1369,
+        "date": "2025-04-29"
+      },
+      {
+        "item": "air fryer",
+        "category": "home",
+        "amount": 23335,
+        "date": "2025-08-21"
+      },
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 15062,
+        "date": "2025-12-19"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 153
+  },
+  {
+    "customer_id": "L00038",
+    "name": "Pooja",
+    "purchase_history": [
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 4960,
+        "date": "2025-02-06"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 18144,
+        "date": "2025-04-26"
+      },
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 4374,
+        "date": "2025-08-28"
+      },
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 10379,
+        "date": "2025-11-01"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1280
+  },
+  {
+    "customer_id": "L00039",
+    "name": "Liam",
+    "purchase_history": [
+      {
+        "item": "board game",
+        "category": "toys",
+        "amount": 19896,
+        "date": "2025-01-21"
+      },
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 19182,
+        "date": "2025-01-21"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 20082,
+        "date": "2025-05-09"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 11221,
+        "date": "2025-06-14"
+      },
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 3289,
+        "date": "2025-08-29"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 6247,
+        "date": "2025-10-27"
+      },
+      {
+        "item": "usb-c hub",
+        "category": "electronics",
+        "amount": 17305,
+        "date": "2025-11-30"
+      },
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 7801,
+        "date": "2025-12-12"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1105
+  },
+  {
+    "customer_id": "L00040",
+    "name": "Leela",
+    "purchase_history": [
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 15203,
+        "date": "2025-02-15"
+      },
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 10893,
+        "date": "2025-03-01"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 2076,
+        "date": "2025-04-07"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 20702,
+        "date": "2025-09-13"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 21850,
+        "date": "2025-10-05"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1014
+  },
+  {
+    "customer_id": "L00041",
+    "name": "Priya",
+    "purchase_history": [
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 4278,
+        "date": "2025-01-15"
+      },
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 13669,
+        "date": "2025-02-17"
+      },
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 15420,
+        "date": "2025-03-02"
+      },
+      {
+        "item": "usb-c hub",
+        "category": "electronics",
+        "amount": 23781,
+        "date": "2025-05-30"
+      },
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 10482,
+        "date": "2025-10-10"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 268
+  },
+  {
+    "customer_id": "L00042",
+    "name": "Riya",
+    "purchase_history": [
+      {
+        "item": "building blocks",
+        "category": "toys",
+        "amount": 12869,
+        "date": "2025-04-08"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 16937,
+        "date": "2025-05-17"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 2587,
+        "date": "2025-05-22"
+      },
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 24091,
+        "date": "2025-06-02"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 967
+  },
+  {
+    "customer_id": "L00043",
+    "name": "Maya",
+    "purchase_history": [
+      {
+        "item": "usb-c hub",
+        "category": "electronics",
+        "amount": 1513,
+        "date": "2025-03-06"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 802,
+        "date": "2025-03-15"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 1730,
+        "date": "2025-06-12"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 15220,
+        "date": "2025-06-14"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 11609,
+        "date": "2025-06-20"
+      },
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 19036,
+        "date": "2025-07-16"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 3588,
+        "date": "2025-08-14"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 12951,
+        "date": "2025-12-06"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 304
+  },
+  {
+    "customer_id": "L00044",
+    "name": "Aarav",
+    "purchase_history": [
+      {
+        "item": "board game",
+        "category": "toys",
+        "amount": 20532,
+        "date": "2025-02-05"
+      },
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 7754,
+        "date": "2025-02-16"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 10676,
+        "date": "2025-11-17"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 11066,
+        "date": "2025-12-12"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 5751,
+        "date": "2025-12-22"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 21066,
+        "date": "2025-12-27"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 542
+  },
+  {
+    "customer_id": "L00045",
+    "name": "Omar",
+    "purchase_history": [
+      {
+        "item": "mechanical keyboard",
+        "category": "electronics",
+        "amount": 6036,
+        "date": "2025-02-10"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 5070,
+        "date": "2025-05-06"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 16607,
+        "date": "2025-10-26"
+      },
+      {
+        "item": "mechanical keyboard",
+        "category": "electronics",
+        "amount": 15410,
+        "date": "2025-11-23"
+      },
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 8666,
+        "date": "2025-12-08"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 18844,
+        "date": "2025-12-16"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 600
+  },
+  {
+    "customer_id": "L00046",
+    "name": "Meera",
+    "purchase_history": [
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 22920,
+        "date": "2025-05-09"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 6827,
+        "date": "2025-07-16"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 11623,
+        "date": "2025-10-28"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1119
+  },
+  {
+    "customer_id": "L00047",
+    "name": "Varun",
+    "purchase_history": [
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 20645,
+        "date": "2025-05-09"
+      },
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 20192,
+        "date": "2025-06-30"
+      },
+      {
+        "item": "espresso machine",
+        "category": "home",
+        "amount": 21868,
+        "date": "2025-07-22"
+      },
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 24717,
+        "date": "2025-09-12"
+      },
+      {
+        "item": "espresso machine",
+        "category": "home",
+        "amount": 18844,
+        "date": "2025-12-18"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1177
+  },
+  {
+    "customer_id": "L00048",
+    "name": "Ishaan",
+    "purchase_history": [
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 14744,
+        "date": "2025-01-18"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 3253,
+        "date": "2025-06-01"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 280
+  },
+  {
+    "customer_id": "L00049",
+    "name": "Nikhil",
+    "purchase_history": [
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 2767,
+        "date": "2025-03-14"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 5691,
+        "date": "2025-05-12"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 756,
+        "date": "2025-05-16"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 24763,
+        "date": "2025-06-23"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 18562,
+        "date": "2025-07-07"
+      },
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 15202,
+        "date": "2025-07-08"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1104
+  },
+  {
+    "customer_id": "L00050",
+    "name": "Rohan",
+    "purchase_history": [
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 15749,
+        "date": "2025-01-13"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 4880,
+        "date": "2025-01-24"
+      },
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 16442,
+        "date": "2025-03-01"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 17914,
+        "date": "2025-03-11"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 20291,
+        "date": "2025-04-24"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 23272,
+        "date": "2025-06-04"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1307
+  },
+  {
+    "customer_id": "L00051",
+    "name": "Aarav",
+    "purchase_history": [
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 9466,
+        "date": "2025-01-17"
+      },
+      {
+        "item": "usb-c hub",
+        "category": "electronics",
+        "amount": 21760,
+        "date": "2025-02-20"
+      },
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 2284,
+        "date": "2025-07-23"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 14828,
+        "date": "2025-08-16"
+      },
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 4302,
+        "date": "2025-08-21"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 21327,
+        "date": "2025-11-24"
+      },
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 3555,
+        "date": "2025-12-18"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1106
+  },
+  {
+    "customer_id": "L00052",
+    "name": "Aarav",
+    "purchase_history": [
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 6017,
+        "date": "2025-02-26"
+      },
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 5041,
+        "date": "2025-03-08"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 19514,
+        "date": "2025-04-21"
+      },
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 5135,
+        "date": "2025-11-02"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 257
+  },
+  {
+    "customer_id": "L00053",
+    "name": "Asha",
+    "purchase_history": [
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 8995,
+        "date": "2025-01-27"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 15905,
+        "date": "2025-08-18"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 15111,
+        "date": "2025-09-15"
+      },
+      {
+        "item": "bluetooth speaker",
+        "category": "electronics",
+        "amount": 14094,
+        "date": "2025-09-27"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 15309,
+        "date": "2025-11-26"
+      },
+      {
+        "item": "summer dress",
+        "category": "apparel",
+        "amount": 1720,
+        "date": "2025-12-04"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 487
+  },
+  {
+    "customer_id": "L00054",
+    "name": "Maya",
+    "purchase_history": [
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 2708,
+        "date": "2025-02-11"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 2452,
+        "date": "2025-03-06"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 873
+  },
+  {
+    "customer_id": "L00055",
+    "name": "Vikram",
+    "purchase_history": [
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 24207,
+        "date": "2025-02-18"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 14392,
+        "date": "2025-08-20"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 11406,
+        "date": "2025-08-21"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 10540,
+        "date": "2025-12-07"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 3549,
+        "date": "2025-12-26"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 780
+  },
+  {
+    "customer_id": "L00056",
+    "name": "Dev",
+    "purchase_history": [
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 3464,
+        "date": "2025-07-10"
+      },
+      {
+        "item": "smartwatch",
+        "category": "electronics",
+        "amount": 2265,
+        "date": "2025-10-28"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "bronze",
+    "points": 186
+  },
+  {
+    "customer_id": "L00057",
+    "name": "Priya",
+    "purchase_history": [
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 19974,
+        "date": "2025-06-09"
+      },
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 21819,
+        "date": "2025-09-04"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 19237,
+        "date": "2025-09-17"
+      },
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 11772,
+        "date": "2025-10-12"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 9428,
+        "date": "2025-10-21"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 18681,
+        "date": "2025-11-15"
+      },
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 20255,
+        "date": "2025-12-03"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 724
+  },
+  {
+    "customer_id": "L00058",
+    "name": "Sanjay",
+    "purchase_history": [
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 6244,
+        "date": "2025-03-15"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 2023,
+        "date": "2025-03-21"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 12425,
+        "date": "2025-06-09"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 14057,
+        "date": "2025-08-21"
+      },
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 24748,
+        "date": "2025-09-29"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 4948,
+        "date": "2025-11-21"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 632
+  },
+  {
+    "customer_id": "L00059",
+    "name": "Ishaan",
+    "purchase_history": [
+      {
+        "item": "air fryer",
+        "category": "home",
+        "amount": 4231,
+        "date": "2025-01-04"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 551,
+        "date": "2025-04-15"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 1788,
+        "date": "2025-04-23"
+      },
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 4796,
+        "date": "2025-05-11"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 13871,
+        "date": "2025-05-20"
+      },
+      {
+        "item": "summer dress",
+        "category": "apparel",
+        "amount": 4029,
+        "date": "2025-06-26"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 9581,
+        "date": "2025-12-14"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 907
+  },
+  {
+    "customer_id": "L00060",
+    "name": "Neha",
+    "purchase_history": [
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 9786,
+        "date": "2025-02-28"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 2661,
+        "date": "2025-07-23"
+      },
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 19166,
+        "date": "2025-08-08"
+      },
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 914,
+        "date": "2025-08-24"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1441
+  },
+  {
+    "customer_id": "L00061",
+    "name": "Karan",
+    "purchase_history": [
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 5809,
+        "date": "2025-02-09"
+      },
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 17469,
+        "date": "2025-02-10"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 3768,
+        "date": "2025-05-05"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 24738,
+        "date": "2025-06-23"
+      },
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 17686,
+        "date": "2025-09-19"
+      },
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 11804,
+        "date": "2025-11-27"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 942
+  },
+  {
+    "customer_id": "L00062",
+    "name": "Kavya",
+    "purchase_history": [
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 5246,
+        "date": "2025-08-14"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 20876,
+        "date": "2025-09-10"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 22619,
+        "date": "2025-10-17"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 355
+  },
+  {
+    "customer_id": "L00063",
+    "name": "Asha",
+    "purchase_history": [
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 10471,
+        "date": "2025-08-25"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1211
+  },
+  {
+    "customer_id": "L00064",
+    "name": "Neha",
+    "purchase_history": [
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 15036,
+        "date": "2025-10-20"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 15462,
+        "date": "2025-10-25"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1320
+  },
+  {
+    "customer_id": "L00065",
+    "name": "Noah",
+    "purchase_history": [
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 23706,
+        "date": "2025-02-13"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 1582,
+        "date": "2025-05-07"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 9610,
+        "date": "2025-05-10"
+      },
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 12517,
+        "date": "2025-05-25"
+      },
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 2459,
+        "date": "2025-06-18"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 17472,
+        "date": "2025-09-25"
+      },
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 2970,
+        "date": "2025-10-26"
+      },
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 11387,
+        "date": "2025-12-14"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 126
+  },
+  {
+    "customer_id": "L00066",
+    "name": "Arjun",
+    "purchase_history": [
+      {
+        "item": "smartwatch",
+        "category": "electronics",
+        "amount": 23527,
+        "date": "2025-02-13"
+      },
+      {
+        "item": "building blocks",
+        "category": "toys",
+        "amount": 7723,
+        "date": "2025-03-12"
+      },
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 7318,
+        "date": "2025-06-24"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 897,
+        "date": "2025-07-05"
+      },
+      {
+        "item": "bedsheet set",
+        "category": "home",
+        "amount": 12643,
+        "date": "2025-11-26"
+      },
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 21468,
+        "date": "2025-12-10"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 22258,
+        "date": "2025-12-26"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1430
+  },
+  {
+    "customer_id": "L00067",
+    "name": "Sofia",
+    "purchase_history": [
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 19870,
+        "date": "2025-07-12"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1105
+  },
+  {
+    "customer_id": "L00068",
+    "name": "Tara",
+    "purchase_history": [
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 18471,
+        "date": "2025-02-22"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 5610,
+        "date": "2025-04-13"
+      },
+      {
+        "item": "building blocks",
+        "category": "toys",
+        "amount": 17798,
+        "date": "2025-05-03"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 20307,
+        "date": "2025-05-26"
+      },
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 6657,
+        "date": "2025-07-08"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 9533,
+        "date": "2025-07-15"
+      },
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 2009,
+        "date": "2025-11-25"
+      },
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 12237,
+        "date": "2025-12-13"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 339
+  },
+  {
+    "customer_id": "L00069",
+    "name": "Zara",
+    "purchase_history": [
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 11755,
+        "date": "2025-01-14"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 12953,
+        "date": "2025-02-11"
+      },
+      {
+        "item": "building blocks",
+        "category": "toys",
+        "amount": 14635,
+        "date": "2025-02-16"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 1223,
+        "date": "2025-06-13"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 13291,
+        "date": "2025-09-15"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 328
+  },
+  {
+    "customer_id": "L00070",
+    "name": "Vikram",
+    "purchase_history": [
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 922,
+        "date": "2025-05-12"
+      },
+      {
+        "item": "bluetooth speaker",
+        "category": "electronics",
+        "amount": 15671,
+        "date": "2025-08-18"
+      },
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 15781,
+        "date": "2025-12-23"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 299
+  },
+  {
+    "customer_id": "L00071",
+    "name": "Rohan",
+    "purchase_history": [
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 11861,
+        "date": "2025-05-04"
+      },
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 8086,
+        "date": "2025-06-04"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 8113,
+        "date": "2025-08-03"
+      },
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 9844,
+        "date": "2025-08-08"
+      },
+      {
+        "item": "board game",
+        "category": "toys",
+        "amount": 3932,
+        "date": "2025-09-13"
+      },
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 21007,
+        "date": "2025-09-21"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 22070,
+        "date": "2025-12-09"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1080
+  },
+  {
+    "customer_id": "L00072",
+    "name": "Rohan",
+    "purchase_history": [
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 1726,
+        "date": "2025-11-22"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1039
+  },
+  {
+    "customer_id": "L00073",
+    "name": "Tara",
+    "purchase_history": [
+      {
+        "item": "building blocks",
+        "category": "toys",
+        "amount": 4718,
+        "date": "2025-02-02"
+      },
+      {
+        "item": "board game",
+        "category": "toys",
+        "amount": 9915,
+        "date": "2025-04-14"
+      },
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 1673,
+        "date": "2025-06-11"
+      },
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 19367,
+        "date": "2025-06-20"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 22735,
+        "date": "2025-08-26"
+      },
+      {
+        "item": "wireless headphones",
+        "category": "electronics",
+        "amount": 11844,
+        "date": "2025-10-07"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 138
+  },
+  {
+    "customer_id": "L00074",
+    "name": "Varun",
+    "purchase_history": [
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 9252,
+        "date": "2025-03-05"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 17315,
+        "date": "2025-05-17"
+      },
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 9675,
+        "date": "2025-07-02"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 13407,
+        "date": "2025-08-14"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 6421,
+        "date": "2025-09-12"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 969
+  },
+  {
+    "customer_id": "L00075",
+    "name": "Maya",
+    "purchase_history": [
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 21254,
+        "date": "2025-01-30"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 2923,
+        "date": "2025-06-17"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 1687,
+        "date": "2025-06-30"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 22902,
+        "date": "2025-08-16"
+      },
+      {
+        "item": "air fryer",
+        "category": "home",
+        "amount": 14911,
+        "date": "2025-11-05"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 369
+  },
+  {
+    "customer_id": "L00076",
+    "name": "Asha",
+    "purchase_history": [
+      {
+        "item": "board game",
+        "category": "toys",
+        "amount": 4436,
+        "date": "2025-02-04"
+      },
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 12166,
+        "date": "2025-07-16"
+      },
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 20208,
+        "date": "2025-12-14"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1391
+  },
+  {
+    "customer_id": "L00077",
+    "name": "Aditya",
+    "purchase_history": [
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 4017,
+        "date": "2025-01-14"
+      },
+      {
+        "item": "board game",
+        "category": "toys",
+        "amount": 19106,
+        "date": "2025-03-12"
+      },
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 8877,
+        "date": "2025-05-14"
+      },
+      {
+        "item": "building blocks",
+        "category": "toys",
+        "amount": 20349,
+        "date": "2025-05-27"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 13342,
+        "date": "2025-06-10"
+      },
+      {
+        "item": "usb-c hub",
+        "category": "electronics",
+        "amount": 17265,
+        "date": "2025-07-18"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 759
+  },
+  {
+    "customer_id": "L00078",
+    "name": "Varun",
+    "purchase_history": [
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 23550,
+        "date": "2025-02-03"
+      },
+      {
+        "item": "bluetooth speaker",
+        "category": "electronics",
+        "amount": 14885,
+        "date": "2025-02-14"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 18376,
+        "date": "2025-03-08"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 10128,
+        "date": "2025-03-22"
+      },
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 16970,
+        "date": "2025-04-25"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 4850,
+        "date": "2025-05-02"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 10434,
+        "date": "2025-07-23"
+      },
+      {
+        "item": "board game",
+        "category": "toys",
+        "amount": 12125,
+        "date": "2025-10-11"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 151
+  },
+  {
+    "customer_id": "L00079",
+    "name": "Emma",
+    "purchase_history": [
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 21348,
+        "date": "2025-02-07"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 22585,
+        "date": "2025-09-22"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 838
+  },
+  {
+    "customer_id": "L00080",
+    "name": "Tara",
+    "purchase_history": [
+      {
+        "item": "usb-c hub",
+        "category": "electronics",
+        "amount": 16777,
+        "date": "2025-01-29"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 10265,
+        "date": "2025-03-26"
+      },
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 23543,
+        "date": "2025-04-26"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1203
+  },
+  {
+    "customer_id": "L00081",
+    "name": "Sanjay",
+    "purchase_history": [
+      {
+        "item": "bedsheet set",
+        "category": "home",
+        "amount": 17781,
+        "date": "2025-02-17"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 19692,
+        "date": "2025-10-25"
+      },
+      {
+        "item": "mechanical keyboard",
+        "category": "electronics",
+        "amount": 21885,
+        "date": "2025-11-16"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 4401,
+        "date": "2025-11-17"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 513
+  },
+  {
+    "customer_id": "L00082",
+    "name": "Diya",
+    "purchase_history": [
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 21319,
+        "date": "2025-10-23"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 84
+  },
+  {
+    "customer_id": "L00083",
+    "name": "Omar",
+    "purchase_history": [
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 21334,
+        "date": "2025-06-04"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1308
+  },
+  {
+    "customer_id": "L00084",
+    "name": "Neha",
+    "purchase_history": [
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 6985,
+        "date": "2025-06-24"
+      },
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 14704,
+        "date": "2025-08-01"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 928
+  },
+  {
+    "customer_id": "L00085",
+    "name": "Rahul",
+    "purchase_history": [
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 8435,
+        "date": "2025-03-23"
+      },
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 6520,
+        "date": "2025-03-23"
+      },
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 15032,
+        "date": "2025-05-07"
+      },
+      {
+        "item": "wireless headphones",
+        "category": "electronics",
+        "amount": 1958,
+        "date": "2025-05-29"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 16643,
+        "date": "2025-06-07"
+      },
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 8221,
+        "date": "2025-08-27"
+      },
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 17174,
+        "date": "2025-10-15"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 707
+  },
+  {
+    "customer_id": "L00086",
+    "name": "Asha",
+    "purchase_history": [
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 14420,
+        "date": "2025-03-10"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 1956,
+        "date": "2025-05-25"
+      },
+      {
+        "item": "air fryer",
+        "category": "home",
+        "amount": 13513,
+        "date": "2025-07-07"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 9663,
+        "date": "2025-10-02"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 493
+  },
+  {
+    "customer_id": "L00087",
+    "name": "Asha",
+    "purchase_history": [
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 18579,
+        "date": "2025-07-07"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 3468,
+        "date": "2025-07-21"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 16823,
+        "date": "2025-08-19"
+      },
+      {
+        "item": "mechanical keyboard",
+        "category": "electronics",
+        "amount": 20041,
+        "date": "2025-09-18"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 20722,
+        "date": "2025-12-15"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1133
+  },
+  {
+    "customer_id": "L00088",
+    "name": "Maya",
+    "purchase_history": [
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 845,
+        "date": "2025-07-08"
+      },
+      {
+        "item": "espresso machine",
+        "category": "home",
+        "amount": 19859,
+        "date": "2025-08-31"
+      },
+      {
+        "item": "bedsheet set",
+        "category": "home",
+        "amount": 11322,
+        "date": "2025-09-17"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 23523,
+        "date": "2025-10-16"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 13949,
+        "date": "2025-10-26"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 5180,
+        "date": "2025-11-07"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 11046,
+        "date": "2025-11-10"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 13176,
+        "date": "2025-11-12"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 682
+  },
+  {
+    "customer_id": "L00089",
+    "name": "Vikram",
+    "purchase_history": [
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 16043,
+        "date": "2025-03-29"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 920,
+        "date": "2025-08-14"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 5142,
+        "date": "2025-12-15"
+      },
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 19061,
+        "date": "2025-12-25"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1182
+  },
+  {
+    "customer_id": "L00090",
+    "name": "Noah",
+    "purchase_history": [
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 10581,
+        "date": "2025-03-30"
+      },
+      {
+        "item": "bedsheet set",
+        "category": "home",
+        "amount": 16165,
+        "date": "2025-04-09"
+      },
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 17296,
+        "date": "2025-04-17"
+      },
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 18587,
+        "date": "2025-06-02"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 18200,
+        "date": "2025-07-01"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 21999,
+        "date": "2025-09-02"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 10688,
+        "date": "2025-09-03"
+      },
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 9770,
+        "date": "2025-12-27"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1027
+  },
+  {
+    "customer_id": "L00091",
+    "name": "Rahul",
+    "purchase_history": [
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 1678,
+        "date": "2025-05-28"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 13228,
+        "date": "2025-06-26"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 589
+  },
+  {
+    "customer_id": "L00092",
+    "name": "Arjun",
+    "purchase_history": [
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 4798,
+        "date": "2025-02-25"
+      },
+      {
+        "item": "board game",
+        "category": "toys",
+        "amount": 22621,
+        "date": "2025-03-12"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 21616,
+        "date": "2025-04-13"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 21204,
+        "date": "2025-04-30"
+      },
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 17948,
+        "date": "2025-05-19"
+      },
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 13843,
+        "date": "2025-06-19"
+      },
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 5475,
+        "date": "2025-07-28"
+      },
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 1963,
+        "date": "2025-12-09"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 525
+  },
+  {
+    "customer_id": "L00093",
+    "name": "Neha",
+    "purchase_history": [
+      {
+        "item": "bluetooth speaker",
+        "category": "electronics",
+        "amount": 9785,
+        "date": "2025-01-20"
+      },
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 6036,
+        "date": "2025-08-02"
+      },
+      {
+        "item": "wireless headphones",
+        "category": "electronics",
+        "amount": 13308,
+        "date": "2025-09-11"
+      },
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 18910,
+        "date": "2025-11-05"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 183
+  },
+  {
+    "customer_id": "L00094",
+    "name": "Aarav",
+    "purchase_history": [
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 22230,
+        "date": "2025-02-18"
+      },
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 11135,
+        "date": "2025-03-25"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 23847,
+        "date": "2025-04-06"
+      },
+      {
+        "item": "smartwatch",
+        "category": "electronics",
+        "amount": 15636,
+        "date": "2025-05-20"
+      },
+      {
+        "item": "mechanical keyboard",
+        "category": "electronics",
+        "amount": 15945,
+        "date": "2025-06-15"
+      },
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 17184,
+        "date": "2025-06-17"
+      },
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 9967,
+        "date": "2025-10-18"
+      },
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 20319,
+        "date": "2025-11-24"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1112
+  },
+  {
+    "customer_id": "L00095",
+    "name": "Vikram",
+    "purchase_history": [
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 22182,
+        "date": "2025-03-02"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 22919,
+        "date": "2025-03-02"
+      },
+      {
+        "item": "air fryer",
+        "category": "home",
+        "amount": 20440,
+        "date": "2025-04-24"
+      },
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 21719,
+        "date": "2025-07-04"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 5533,
+        "date": "2025-07-27"
+      },
+      {
+        "item": "bedsheet set",
+        "category": "home",
+        "amount": 23987,
+        "date": "2025-10-21"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 546
+  },
+  {
+    "customer_id": "L00096",
+    "name": "Kavya",
+    "purchase_history": [
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 18786,
+        "date": "2025-02-27"
+      },
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 16863,
+        "date": "2025-04-14"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 5691,
+        "date": "2025-06-17"
+      },
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 22593,
+        "date": "2025-11-02"
+      },
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 17913,
+        "date": "2025-12-07"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 17607,
+        "date": "2025-12-27"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1240
+  },
+  {
+    "customer_id": "L00097",
+    "name": "Leela",
+    "purchase_history": [
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 19250,
+        "date": "2025-02-07"
+      },
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 13697,
+        "date": "2025-04-03"
+      },
+      {
+        "item": "espresso machine",
+        "category": "home",
+        "amount": 13274,
+        "date": "2025-05-11"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 2123,
+        "date": "2025-08-21"
+      },
+      {
+        "item": "smartwatch",
+        "category": "electronics",
+        "amount": 13912,
+        "date": "2025-08-22"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 2561,
+        "date": "2025-08-30"
+      },
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 15451,
+        "date": "2025-12-11"
+      },
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 11589,
+        "date": "2025-12-25"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1194
+  },
+  {
+    "customer_id": "L00098",
+    "name": "Karan",
+    "purchase_history": [
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 24150,
+        "date": "2025-04-25"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 21715,
+        "date": "2025-06-28"
+      },
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 12669,
+        "date": "2025-07-12"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 17730,
+        "date": "2025-07-14"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 17904,
+        "date": "2025-07-21"
+      },
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 10076,
+        "date": "2025-08-26"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 860
+  },
+  {
+    "customer_id": "L00099",
+    "name": "Kavya",
+    "purchase_history": [
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 20449,
+        "date": "2025-01-09"
+      },
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 2504,
+        "date": "2025-02-21"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 386
+  },
+  {
+    "customer_id": "L00100",
+    "name": "Nikhil",
+    "purchase_history": [
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 2149,
+        "date": "2025-03-13"
+      },
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 14683,
+        "date": "2025-04-30"
+      },
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 8062,
+        "date": "2025-06-04"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 7973,
+        "date": "2025-10-22"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 99
+  },
+  {
+    "customer_id": "L00101",
+    "name": "Aditya",
+    "purchase_history": [
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 20812,
+        "date": "2025-12-14"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 563
+  },
+  {
+    "customer_id": "L00102",
+    "name": "Kavya",
+    "purchase_history": [
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 23485,
+        "date": "2025-03-15"
+      },
+      {
+        "item": "smartwatch",
+        "category": "electronics",
+        "amount": 15816,
+        "date": "2025-05-04"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 13027,
+        "date": "2025-05-05"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 10126,
+        "date": "2025-07-12"
+      },
+      {
+        "item": "board game",
+        "category": "toys",
+        "amount": 18728,
+        "date": "2025-07-31"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 23116,
+        "date": "2025-08-02"
+      },
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 11122,
+        "date": "2025-11-28"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1317
+  },
+  {
+    "customer_id": "L00103",
+    "name": "Varun",
+    "purchase_history": [
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 16008,
+        "date": "2025-04-17"
+      },
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 802,
+        "date": "2025-04-19"
+      },
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 6465,
+        "date": "2025-10-28"
+      },
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 12659,
+        "date": "2025-12-11"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1483
+  },
+  {
+    "customer_id": "L00104",
+    "name": "Varun",
+    "purchase_history": [
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 15570,
+        "date": "2025-02-20"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 10406,
+        "date": "2025-05-14"
+      },
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 12773,
+        "date": "2025-08-27"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 8142,
+        "date": "2025-10-10"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 980
+  },
+  {
+    "customer_id": "L00105",
+    "name": "Kavya",
+    "purchase_history": [
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 9972,
+        "date": "2025-03-20"
+      },
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 831,
+        "date": "2025-05-14"
+      },
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 7837,
+        "date": "2025-07-14"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 1798,
+        "date": "2025-10-16"
+      },
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 16311,
+        "date": "2025-11-25"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 18343,
+        "date": "2025-12-02"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 416
+  },
+  {
+    "customer_id": "L00106",
+    "name": "Karan",
+    "purchase_history": [
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 1408,
+        "date": "2025-02-08"
+      },
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 13813,
+        "date": "2025-03-12"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 6330,
+        "date": "2025-10-05"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 346
+  },
+  {
+    "customer_id": "L00107",
+    "name": "Rahul",
+    "purchase_history": [
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 815,
+        "date": "2025-01-04"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 688,
+        "date": "2025-01-09"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 3806,
+        "date": "2025-02-19"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 8196,
+        "date": "2025-04-09"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 11914,
+        "date": "2025-05-17"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 17855,
+        "date": "2025-05-27"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 20545,
+        "date": "2025-11-23"
+      },
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 23167,
+        "date": "2025-12-12"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 447
+  },
+  {
+    "customer_id": "L00108",
+    "name": "Maya",
+    "purchase_history": [
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 22714,
+        "date": "2025-02-11"
+      },
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 13580,
+        "date": "2025-07-14"
+      },
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 3009,
+        "date": "2025-09-13"
+      },
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 2138,
+        "date": "2025-11-23"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1157
+  },
+  {
+    "customer_id": "L00109",
+    "name": "Asha",
+    "purchase_history": [
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 22984,
+        "date": "2025-10-18"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 195
+  },
+  {
+    "customer_id": "L00110",
+    "name": "Leela",
+    "purchase_history": [
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 813,
+        "date": "2025-04-17"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 574
+  },
+  {
+    "customer_id": "L00111",
+    "name": "Kavya",
+    "purchase_history": [
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 2059,
+        "date": "2025-02-20"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 12877,
+        "date": "2025-03-13"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 2790,
+        "date": "2025-06-24"
+      },
+      {
+        "item": "smartwatch",
+        "category": "electronics",
+        "amount": 8179,
+        "date": "2025-10-18"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 1270,
+        "date": "2025-11-21"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "bronze",
+    "points": 157
+  },
+  {
+    "customer_id": "L00112",
+    "name": "Rahul",
+    "purchase_history": [
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 3298,
+        "date": "2025-01-03"
+      },
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 2988,
+        "date": "2025-05-18"
+      },
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 12093,
+        "date": "2025-05-19"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 20570,
+        "date": "2025-06-01"
+      },
+      {
+        "item": "bluetooth speaker",
+        "category": "electronics",
+        "amount": 13067,
+        "date": "2025-06-12"
+      },
+      {
+        "item": "usb-c hub",
+        "category": "electronics",
+        "amount": 23620,
+        "date": "2025-11-21"
+      },
+      {
+        "item": "bluetooth speaker",
+        "category": "electronics",
+        "amount": 19497,
+        "date": "2025-12-05"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 768
+  },
+  {
+    "customer_id": "L00113",
+    "name": "Ishaan",
+    "purchase_history": [
+      {
+        "item": "air fryer",
+        "category": "home",
+        "amount": 16458,
+        "date": "2025-03-16"
+      },
+      {
+        "item": "summer dress",
+        "category": "apparel",
+        "amount": 17375,
+        "date": "2025-03-28"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 4849,
+        "date": "2025-05-18"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 704,
+        "date": "2025-05-30"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 3236,
+        "date": "2025-07-01"
+      },
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 3075,
+        "date": "2025-10-14"
+      },
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 19860,
+        "date": "2025-11-03"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1136
+  },
+  {
+    "customer_id": "L00114",
+    "name": "Diya",
+    "purchase_history": [
+      {
+        "item": "building blocks",
+        "category": "toys",
+        "amount": 15303,
+        "date": "2025-02-24"
+      },
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 521,
+        "date": "2025-07-22"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 11098,
+        "date": "2025-08-14"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 21633,
+        "date": "2025-11-01"
+      },
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 10807,
+        "date": "2025-11-05"
+      },
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 23922,
+        "date": "2025-11-17"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "bronze",
+    "points": 157
+  },
+  {
+    "customer_id": "L00115",
+    "name": "Omar",
+    "purchase_history": [
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 23002,
+        "date": "2025-02-05"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 18776,
+        "date": "2025-04-13"
+      },
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 23511,
+        "date": "2025-04-18"
+      },
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 19170,
+        "date": "2025-05-05"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 9484,
+        "date": "2025-07-21"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 22638,
+        "date": "2025-10-09"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 815
+  },
+  {
+    "customer_id": "L00116",
+    "name": "Rohan",
+    "purchase_history": [
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 21883,
+        "date": "2025-03-20"
+      },
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 3883,
+        "date": "2025-05-08"
+      },
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 2723,
+        "date": "2025-08-18"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 17810,
+        "date": "2025-09-17"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 12081,
+        "date": "2025-12-26"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 285
+  },
+  {
+    "customer_id": "L00117",
+    "name": "Neha",
+    "purchase_history": [
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 3771,
+        "date": "2025-01-06"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 11603,
+        "date": "2025-01-13"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 24225,
+        "date": "2025-03-14"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 14907,
+        "date": "2025-07-11"
+      },
+      {
+        "item": "board game",
+        "category": "toys",
+        "amount": 9980,
+        "date": "2025-08-01"
+      },
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 7574,
+        "date": "2025-09-19"
+      },
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 22567,
+        "date": "2025-10-29"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1153
+  },
+  {
+    "customer_id": "L00118",
+    "name": "Maya",
+    "purchase_history": [
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 18384,
+        "date": "2025-03-23"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 15440,
+        "date": "2025-04-29"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 24564,
+        "date": "2025-05-05"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 2501,
+        "date": "2025-06-03"
+      },
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 1040,
+        "date": "2025-06-25"
+      },
+      {
+        "item": "board game",
+        "category": "toys",
+        "amount": 14657,
+        "date": "2025-12-23"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 989
+  },
+  {
+    "customer_id": "L00119",
+    "name": "Riya",
+    "purchase_history": [
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 17892,
+        "date": "2025-04-06"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 19861,
+        "date": "2025-07-18"
+      },
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 6765,
+        "date": "2025-08-19"
+      },
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 6757,
+        "date": "2025-08-23"
+      },
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 22277,
+        "date": "2025-09-08"
+      },
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 445,
+        "date": "2025-12-27"
+      },
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 9420,
+        "date": "2025-12-27"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 885
+  },
+  {
+    "customer_id": "L00120",
+    "name": "Tara",
+    "purchase_history": [
+      {
+        "item": "bedsheet set",
+        "category": "home",
+        "amount": 19638,
+        "date": "2025-02-13"
+      },
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 4162,
+        "date": "2025-05-03"
+      },
+      {
+        "item": "espresso machine",
+        "category": "home",
+        "amount": 6298,
+        "date": "2025-07-11"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 937
+  },
+  {
+    "customer_id": "L00121",
+    "name": "Zara",
+    "purchase_history": [
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 20596,
+        "date": "2025-01-28"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 16179,
+        "date": "2025-03-11"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 18483,
+        "date": "2025-03-27"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 4897,
+        "date": "2025-04-06"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 22736,
+        "date": "2025-09-09"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 18701,
+        "date": "2025-09-16"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 16247,
+        "date": "2025-11-22"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1177
+  },
+  {
+    "customer_id": "L00122",
+    "name": "Arjun",
+    "purchase_history": [
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 1371,
+        "date": "2025-05-21"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1157
+  },
+  {
+    "customer_id": "L00123",
+    "name": "Ishaan",
+    "purchase_history": [
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 18096,
+        "date": "2025-07-07"
+      },
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 23859,
+        "date": "2025-08-14"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1014
+  },
+  {
+    "customer_id": "L00124",
+    "name": "Priya",
+    "purchase_history": [
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 20490,
+        "date": "2025-03-13"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 4146,
+        "date": "2025-05-02"
+      },
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 8911,
+        "date": "2025-06-28"
+      },
+      {
+        "item": "summer dress",
+        "category": "apparel",
+        "amount": 22881,
+        "date": "2025-06-29"
+      },
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 2245,
+        "date": "2025-10-19"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 506
+  },
+  {
+    "customer_id": "L00125",
+    "name": "Riya",
+    "purchase_history": [
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 21792,
+        "date": "2025-03-06"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 22458,
+        "date": "2025-07-21"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 24879,
+        "date": "2025-07-30"
+      },
+      {
+        "item": "bedsheet set",
+        "category": "home",
+        "amount": 9060,
+        "date": "2025-09-21"
+      },
+      {
+        "item": "mechanical keyboard",
+        "category": "electronics",
+        "amount": 5092,
+        "date": "2025-12-31"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1441
+  },
+  {
+    "customer_id": "L00126",
+    "name": "Zara",
+    "purchase_history": [
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 24309,
+        "date": "2025-02-17"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 1805,
+        "date": "2025-02-20"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 14378,
+        "date": "2025-04-19"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 10879,
+        "date": "2025-05-26"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 18851,
+        "date": "2025-09-06"
+      },
+      {
+        "item": "air fryer",
+        "category": "home",
+        "amount": 15199,
+        "date": "2025-09-07"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 13500,
+        "date": "2025-09-21"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 2375,
+        "date": "2025-10-01"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 768
+  },
+  {
+    "customer_id": "L00127",
+    "name": "Nikhil",
+    "purchase_history": [
+      {
+        "item": "bluetooth speaker",
+        "category": "electronics",
+        "amount": 10191,
+        "date": "2025-03-23"
+      },
+      {
+        "item": "board game",
+        "category": "toys",
+        "amount": 14318,
+        "date": "2025-04-14"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 335,
+        "date": "2025-04-20"
+      },
+      {
+        "item": "espresso machine",
+        "category": "home",
+        "amount": 21749,
+        "date": "2025-07-04"
+      },
+      {
+        "item": "board game",
+        "category": "toys",
+        "amount": 4648,
+        "date": "2025-10-31"
+      },
+      {
+        "item": "wireless headphones",
+        "category": "electronics",
+        "amount": 13287,
+        "date": "2025-11-17"
+      },
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 14365,
+        "date": "2025-12-02"
+      },
+      {
+        "item": "espresso machine",
+        "category": "home",
+        "amount": 12484,
+        "date": "2025-12-07"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 323
+  },
+  {
+    "customer_id": "L00128",
+    "name": "Rohan",
+    "purchase_history": [
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 15953,
+        "date": "2025-02-06"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 3227,
+        "date": "2025-02-22"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 703
+  },
+  {
+    "customer_id": "L00129",
+    "name": "Diya",
+    "purchase_history": [
+      {
+        "item": "usb-c hub",
+        "category": "electronics",
+        "amount": 11807,
+        "date": "2025-04-20"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 20298,
+        "date": "2025-11-29"
+      },
+      {
+        "item": "usb-c hub",
+        "category": "electronics",
+        "amount": 20487,
+        "date": "2025-12-18"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 272
+  },
+  {
+    "customer_id": "L00130",
+    "name": "Aditya",
+    "purchase_history": [
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 21422,
+        "date": "2025-02-13"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 10605,
+        "date": "2025-03-13"
+      },
+      {
+        "item": "espresso machine",
+        "category": "home",
+        "amount": 21874,
+        "date": "2025-06-04"
+      },
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 16516,
+        "date": "2025-07-17"
+      },
+      {
+        "item": "summer dress",
+        "category": "apparel",
+        "amount": 20187,
+        "date": "2025-09-18"
+      },
+      {
+        "item": "summer dress",
+        "category": "apparel",
+        "amount": 19993,
+        "date": "2025-11-04"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 9984,
+        "date": "2025-11-27"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 252
+  },
+  {
+    "customer_id": "L00131",
+    "name": "Rahul",
+    "purchase_history": [
+      {
+        "item": "usb-c hub",
+        "category": "electronics",
+        "amount": 2691,
+        "date": "2025-01-09"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 8891,
+        "date": "2025-04-21"
+      },
+      {
+        "item": "bedsheet set",
+        "category": "home",
+        "amount": 13912,
+        "date": "2025-08-05"
+      },
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 13340,
+        "date": "2025-09-17"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 12975,
+        "date": "2025-10-19"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 18203,
+        "date": "2025-12-16"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 24
+  },
+  {
+    "customer_id": "L00132",
+    "name": "Asha",
+    "purchase_history": [
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 2197,
+        "date": "2025-05-06"
+      },
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 17876,
+        "date": "2025-06-17"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 4100,
+        "date": "2025-08-21"
+      },
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 2889,
+        "date": "2025-09-19"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 10463,
+        "date": "2025-12-24"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 312
+  },
+  {
+    "customer_id": "L00133",
+    "name": "Zara",
+    "purchase_history": [
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 23286,
+        "date": "2025-01-06"
+      },
+      {
+        "item": "usb-c hub",
+        "category": "electronics",
+        "amount": 11660,
+        "date": "2025-09-25"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 359
+  },
+  {
+    "customer_id": "L00134",
+    "name": "Emma",
+    "purchase_history": [
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 5454,
+        "date": "2025-05-11"
+      },
+      {
+        "item": "bedsheet set",
+        "category": "home",
+        "amount": 2392,
+        "date": "2025-05-15"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 11277,
+        "date": "2025-08-08"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 15215,
+        "date": "2025-09-19"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 16671,
+        "date": "2025-10-18"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 259
+  },
+  {
+    "customer_id": "L00135",
+    "name": "Ananya",
+    "purchase_history": [
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 8313,
+        "date": "2025-01-24"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 467
+  },
+  {
+    "customer_id": "L00136",
+    "name": "Riya",
+    "purchase_history": [
+      {
+        "item": "air fryer",
+        "category": "home",
+        "amount": 11024,
+        "date": "2025-02-14"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 561,
+        "date": "2025-07-08"
+      },
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 8435,
+        "date": "2025-08-02"
+      },
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 2558,
+        "date": "2025-08-27"
+      },
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 7613,
+        "date": "2025-09-22"
+      },
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 2852,
+        "date": "2025-10-20"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 16750,
+        "date": "2025-12-11"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 72
+  },
+  {
+    "customer_id": "L00137",
+    "name": "Emma",
+    "purchase_history": [
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 3706,
+        "date": "2025-04-16"
+      },
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 23619,
+        "date": "2025-05-24"
+      },
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 18045,
+        "date": "2025-06-27"
+      },
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 508,
+        "date": "2025-07-29"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 14056,
+        "date": "2025-09-09"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 7884,
+        "date": "2025-09-24"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 6703,
+        "date": "2025-10-07"
+      },
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 347,
+        "date": "2025-12-03"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 496
+  },
+  {
+    "customer_id": "L00138",
+    "name": "Karan",
+    "purchase_history": [
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 21180,
+        "date": "2025-07-21"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 14553,
+        "date": "2025-12-06"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 173
+  },
+  {
+    "customer_id": "L00139",
+    "name": "Omar",
+    "purchase_history": [
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 8983,
+        "date": "2025-03-03"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 3762,
+        "date": "2025-03-26"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 9211,
+        "date": "2025-04-30"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 10590,
+        "date": "2025-07-28"
+      },
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 7103,
+        "date": "2025-08-20"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 4760,
+        "date": "2025-10-27"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 804
+  },
+  {
+    "customer_id": "L00140",
+    "name": "Rohan",
+    "purchase_history": [
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 5160,
+        "date": "2025-02-16"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1427
+  },
+  {
+    "customer_id": "L00141",
+    "name": "Rahul",
+    "purchase_history": [
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 4279,
+        "date": "2025-01-07"
+      },
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 4583,
+        "date": "2025-04-12"
+      },
+      {
+        "item": "wireless headphones",
+        "category": "electronics",
+        "amount": 13551,
+        "date": "2025-08-20"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 3403,
+        "date": "2025-08-25"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 22788,
+        "date": "2025-11-19"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 612
+  },
+  {
+    "customer_id": "L00142",
+    "name": "Rahul",
+    "purchase_history": [
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 21467,
+        "date": "2025-08-16"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 153
+  },
+  {
+    "customer_id": "L00143",
+    "name": "Ishaan",
+    "purchase_history": [
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 16557,
+        "date": "2025-01-16"
+      },
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 1959,
+        "date": "2025-03-28"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 679
+  },
+  {
+    "customer_id": "L00144",
+    "name": "Dev",
+    "purchase_history": [
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 5170,
+        "date": "2025-01-18"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 2298,
+        "date": "2025-02-14"
+      },
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 16647,
+        "date": "2025-07-30"
+      },
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 4796,
+        "date": "2025-08-03"
+      },
+      {
+        "item": "summer dress",
+        "category": "apparel",
+        "amount": 8464,
+        "date": "2025-11-19"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 383
+  },
+  {
+    "customer_id": "L00145",
+    "name": "Dev",
+    "purchase_history": [
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 9505,
+        "date": "2025-01-30"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 19436,
+        "date": "2025-04-30"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 13026,
+        "date": "2025-05-19"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 11573,
+        "date": "2025-10-17"
+      },
+      {
+        "item": "wireless headphones",
+        "category": "electronics",
+        "amount": 10748,
+        "date": "2025-11-02"
+      },
+      {
+        "item": "wireless headphones",
+        "category": "electronics",
+        "amount": 8421,
+        "date": "2025-12-03"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1460
+  },
+  {
+    "customer_id": "L00146",
+    "name": "Omar",
+    "purchase_history": [
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 5992,
+        "date": "2025-04-01"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 18751,
+        "date": "2025-04-07"
+      },
+      {
+        "item": "summer dress",
+        "category": "apparel",
+        "amount": 10720,
+        "date": "2025-12-24"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 23350,
+        "date": "2025-12-25"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 114
+  },
+  {
+    "customer_id": "L00147",
+    "name": "Diya",
+    "purchase_history": [
+      {
+        "item": "summer dress",
+        "category": "apparel",
+        "amount": 7469,
+        "date": "2025-01-11"
+      },
+      {
+        "item": "board game",
+        "category": "toys",
+        "amount": 3257,
+        "date": "2025-01-29"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 322,
+        "date": "2025-06-19"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 632
+  },
+  {
+    "customer_id": "L00148",
+    "name": "Pooja",
+    "purchase_history": [
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 11328,
+        "date": "2025-06-04"
+      },
+      {
+        "item": "wireless headphones",
+        "category": "electronics",
+        "amount": 17545,
+        "date": "2025-07-06"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 5461,
+        "date": "2025-08-12"
+      },
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 5140,
+        "date": "2025-10-28"
+      },
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 23386,
+        "date": "2025-12-06"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 6008,
+        "date": "2025-12-29"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 363
+  },
+  {
+    "customer_id": "L00149",
+    "name": "Aditya",
+    "purchase_history": [
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 6123,
+        "date": "2025-01-01"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 21259,
+        "date": "2025-10-17"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 6266,
+        "date": "2025-11-05"
+      },
+      {
+        "item": "usb-c hub",
+        "category": "electronics",
+        "amount": 10353,
+        "date": "2025-12-19"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 730
+  },
+  {
+    "customer_id": "L00150",
+    "name": "Ananya",
+    "purchase_history": [
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 3840,
+        "date": "2025-01-01"
+      },
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 23013,
+        "date": "2025-02-04"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 21146,
+        "date": "2025-02-15"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 673,
+        "date": "2025-05-16"
+      },
+      {
+        "item": "usb-c hub",
+        "category": "electronics",
+        "amount": 16457,
+        "date": "2025-07-13"
+      },
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 14659,
+        "date": "2025-08-03"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 487
+  },
+  {
+    "customer_id": "L00151",
+    "name": "Emma",
+    "purchase_history": [
+      {
+        "item": "usb-c hub",
+        "category": "electronics",
+        "amount": 2715,
+        "date": "2025-01-18"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 24285,
+        "date": "2025-02-08"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 11500,
+        "date": "2025-03-29"
+      },
+      {
+        "item": "espresso machine",
+        "category": "home",
+        "amount": 10743,
+        "date": "2025-05-14"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1183
+  },
+  {
+    "customer_id": "L00152",
+    "name": "Diya",
+    "purchase_history": [
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 3442,
+        "date": "2025-01-26"
+      },
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 5332,
+        "date": "2025-01-28"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 14311,
+        "date": "2025-02-14"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 2054,
+        "date": "2025-02-21"
+      },
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 21718,
+        "date": "2025-03-26"
+      },
+      {
+        "item": "bedsheet set",
+        "category": "home",
+        "amount": 16039,
+        "date": "2025-04-13"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 21946,
+        "date": "2025-05-25"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 6525,
+        "date": "2025-07-29"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1256
+  },
+  {
+    "customer_id": "L00153",
+    "name": "Ishaan",
+    "purchase_history": [
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 22193,
+        "date": "2025-06-26"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 6358,
+        "date": "2025-07-09"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 6413,
+        "date": "2025-08-17"
+      },
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 14709,
+        "date": "2025-08-27"
+      },
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 13324,
+        "date": "2025-08-30"
+      },
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 9100,
+        "date": "2025-10-16"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 3286,
+        "date": "2025-11-25"
+      },
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 24949,
+        "date": "2025-12-23"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 167
+  },
+  {
+    "customer_id": "L00154",
+    "name": "Aditya",
+    "purchase_history": [
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 17847,
+        "date": "2025-12-18"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1133
+  },
+  {
+    "customer_id": "L00155",
+    "name": "Sofia",
+    "purchase_history": [
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 4241,
+        "date": "2025-08-18"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 16752,
+        "date": "2025-10-20"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 612
+  },
+  {
+    "customer_id": "L00156",
+    "name": "Zara",
+    "purchase_history": [
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 22684,
+        "date": "2025-08-11"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 258
+  },
+  {
+    "customer_id": "L00157",
+    "name": "Liam",
+    "purchase_history": [
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 18738,
+        "date": "2025-02-21"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 3987,
+        "date": "2025-08-01"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 9350,
+        "date": "2025-09-24"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 13017,
+        "date": "2025-10-12"
+      },
+      {
+        "item": "mechanical keyboard",
+        "category": "electronics",
+        "amount": 18866,
+        "date": "2025-10-29"
+      },
+      {
+        "item": "board game",
+        "category": "toys",
+        "amount": 23251,
+        "date": "2025-11-16"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 528
+  },
+  {
+    "customer_id": "L00158",
+    "name": "Emma",
+    "purchase_history": [
+      {
+        "item": "board game",
+        "category": "toys",
+        "amount": 5942,
+        "date": "2025-05-22"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 13269,
+        "date": "2025-06-19"
+      },
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 24736,
+        "date": "2025-09-01"
+      },
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 19044,
+        "date": "2025-11-08"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 20558,
+        "date": "2025-11-08"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 841
+  },
+  {
+    "customer_id": "L00159",
+    "name": "Tara",
+    "purchase_history": [
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 14774,
+        "date": "2025-04-19"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 4703,
+        "date": "2025-06-03"
+      },
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 17224,
+        "date": "2025-07-11"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 9128,
+        "date": "2025-08-02"
+      },
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 23112,
+        "date": "2025-12-17"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 620
+  },
+  {
+    "customer_id": "L00160",
+    "name": "Rohan",
+    "purchase_history": [
+      {
+        "item": "smartwatch",
+        "category": "electronics",
+        "amount": 18934,
+        "date": "2025-01-15"
+      },
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 15256,
+        "date": "2025-01-26"
+      },
+      {
+        "item": "mechanical keyboard",
+        "category": "electronics",
+        "amount": 6877,
+        "date": "2025-01-30"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 21121,
+        "date": "2025-03-05"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 9277,
+        "date": "2025-07-08"
+      },
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 12504,
+        "date": "2025-09-08"
+      },
+      {
+        "item": "building blocks",
+        "category": "toys",
+        "amount": 15851,
+        "date": "2025-10-28"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1453
+  },
+  {
+    "customer_id": "L00161",
+    "name": "Nikhil",
+    "purchase_history": [
+      {
+        "item": "espresso machine",
+        "category": "home",
+        "amount": 12966,
+        "date": "2025-01-26"
+      },
+      {
+        "item": "smartwatch",
+        "category": "electronics",
+        "amount": 7322,
+        "date": "2025-04-24"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1410
+  },
+  {
+    "customer_id": "L00162",
+    "name": "Omar",
+    "purchase_history": [
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 4635,
+        "date": "2025-11-28"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1051
+  },
+  {
+    "customer_id": "L00163",
+    "name": "Rahul",
+    "purchase_history": [
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 19452,
+        "date": "2025-02-22"
+      },
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 15592,
+        "date": "2025-06-04"
+      },
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 22004,
+        "date": "2025-07-11"
+      },
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 11726,
+        "date": "2025-08-24"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 10080,
+        "date": "2025-12-17"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 625
+  },
+  {
+    "customer_id": "L00164",
+    "name": "Riya",
+    "purchase_history": [
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 13022,
+        "date": "2025-01-19"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 22607,
+        "date": "2025-03-13"
+      },
+      {
+        "item": "air fryer",
+        "category": "home",
+        "amount": 6472,
+        "date": "2025-03-18"
+      },
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 9986,
+        "date": "2025-05-13"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 2160,
+        "date": "2025-11-04"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 665
+  },
+  {
+    "customer_id": "L00165",
+    "name": "Dev",
+    "purchase_history": [
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 9926,
+        "date": "2025-02-19"
+      },
+      {
+        "item": "building blocks",
+        "category": "toys",
+        "amount": 24578,
+        "date": "2025-05-13"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 22315,
+        "date": "2025-07-03"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 5870,
+        "date": "2025-12-03"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1460
+  },
+  {
+    "customer_id": "L00166",
+    "name": "Liam",
+    "purchase_history": [
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 11941,
+        "date": "2025-04-25"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 17661,
+        "date": "2025-06-02"
+      },
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 11156,
+        "date": "2025-07-10"
+      },
+      {
+        "item": "bedsheet set",
+        "category": "home",
+        "amount": 9935,
+        "date": "2025-08-26"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 6674,
+        "date": "2025-09-14"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 2058,
+        "date": "2025-11-21"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1392
+  },
+  {
+    "customer_id": "L00167",
+    "name": "Ananya",
+    "purchase_history": [
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 21091,
+        "date": "2025-01-30"
+      },
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 9262,
+        "date": "2025-04-18"
+      },
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 4993,
+        "date": "2025-06-11"
+      },
+      {
+        "item": "wireless headphones",
+        "category": "electronics",
+        "amount": 16277,
+        "date": "2025-06-20"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 20435,
+        "date": "2025-08-11"
+      },
+      {
+        "item": "smartwatch",
+        "category": "electronics",
+        "amount": 5491,
+        "date": "2025-09-08"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 410
+  },
+  {
+    "customer_id": "L00168",
+    "name": "Emma",
+    "purchase_history": [
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 24242,
+        "date": "2025-07-11"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 9
+  },
+  {
+    "customer_id": "L00169",
+    "name": "Arjun",
+    "purchase_history": [
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 7714,
+        "date": "2025-12-22"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 390
+  },
+  {
+    "customer_id": "L00170",
+    "name": "Varun",
+    "purchase_history": [
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 13518,
+        "date": "2025-01-10"
+      },
+      {
+        "item": "wireless headphones",
+        "category": "electronics",
+        "amount": 1798,
+        "date": "2025-06-02"
+      },
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 16362,
+        "date": "2025-07-03"
+      },
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 24149,
+        "date": "2025-09-24"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 14510,
+        "date": "2025-12-18"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1205
+  },
+  {
+    "customer_id": "L00171",
+    "name": "Maya",
+    "purchase_history": [
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 19761,
+        "date": "2025-01-25"
+      },
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 21282,
+        "date": "2025-05-11"
+      },
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 23601,
+        "date": "2025-11-30"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "bronze",
+    "points": 44
+  },
+  {
+    "customer_id": "L00172",
+    "name": "Zara",
+    "purchase_history": [
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 4035,
+        "date": "2025-02-24"
+      },
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 23298,
+        "date": "2025-03-20"
+      },
+      {
+        "item": "building blocks",
+        "category": "toys",
+        "amount": 20255,
+        "date": "2025-04-13"
+      },
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 10166,
+        "date": "2025-08-04"
+      },
+      {
+        "item": "usb-c hub",
+        "category": "electronics",
+        "amount": 3737,
+        "date": "2025-09-19"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 4349,
+        "date": "2025-10-08"
+      },
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 20707,
+        "date": "2025-11-07"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 237
+  },
+  {
+    "customer_id": "L00173",
+    "name": "Meera",
+    "purchase_history": [
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 389,
+        "date": "2025-01-07"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 10000,
+        "date": "2025-05-16"
+      },
+      {
+        "item": "building blocks",
+        "category": "toys",
+        "amount": 22851,
+        "date": "2025-09-04"
+      },
+      {
+        "item": "building blocks",
+        "category": "toys",
+        "amount": 3251,
+        "date": "2025-09-19"
+      },
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 1591,
+        "date": "2025-10-08"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 8685,
+        "date": "2025-11-26"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 19113,
+        "date": "2025-12-09"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1440
+  },
+  {
+    "customer_id": "L00174",
+    "name": "Omar",
+    "purchase_history": [
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 24500,
+        "date": "2025-03-01"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 616,
+        "date": "2025-03-12"
+      },
+      {
+        "item": "espresso machine",
+        "category": "home",
+        "amount": 12510,
+        "date": "2025-06-25"
+      },
+      {
+        "item": "wireless headphones",
+        "category": "electronics",
+        "amount": 13432,
+        "date": "2025-07-24"
+      },
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 12015,
+        "date": "2025-08-13"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 12939,
+        "date": "2025-12-20"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 595
+  },
+  {
+    "customer_id": "L00175",
+    "name": "Riya",
+    "purchase_history": [
+      {
+        "item": "bluetooth speaker",
+        "category": "electronics",
+        "amount": 24103,
+        "date": "2025-01-31"
+      },
+      {
+        "item": "wireless headphones",
+        "category": "electronics",
+        "amount": 13932,
+        "date": "2025-10-30"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 341
+  },
+  {
+    "customer_id": "L00176",
+    "name": "Nikhil",
+    "purchase_history": [
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 14740,
+        "date": "2025-01-24"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 21983,
+        "date": "2025-05-08"
+      },
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 21762,
+        "date": "2025-06-10"
+      },
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 16129,
+        "date": "2025-09-07"
+      },
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 17309,
+        "date": "2025-09-25"
+      },
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 24667,
+        "date": "2025-10-23"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 777
+  },
+  {
+    "customer_id": "L00177",
+    "name": "Liam",
+    "purchase_history": [
+      {
+        "item": "yoga mat",
+        "category": "sportswear",
+        "amount": 16866,
+        "date": "2025-08-29"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1143
+  },
+  {
+    "customer_id": "L00178",
+    "name": "Meera",
+    "purchase_history": [
+      {
+        "item": "summer dress",
+        "category": "apparel",
+        "amount": 21380,
+        "date": "2025-07-13"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 2883,
+        "date": "2025-08-24"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 3184,
+        "date": "2025-09-13"
+      },
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 1949,
+        "date": "2025-09-17"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 656
+  },
+  {
+    "customer_id": "L00179",
+    "name": "Maya",
+    "purchase_history": [
+      {
+        "item": "perfume",
+        "category": "beauty",
+        "amount": 1474,
+        "date": "2025-10-13"
+      },
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 3278,
+        "date": "2025-11-06"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 36
+  },
+  {
+    "customer_id": "L00180",
+    "name": "Sanjay",
+    "purchase_history": [
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 21891,
+        "date": "2025-04-24"
+      },
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 2078,
+        "date": "2025-04-25"
+      },
+      {
+        "item": "bedsheet set",
+        "category": "home",
+        "amount": 17404,
+        "date": "2025-07-11"
+      },
+      {
+        "item": "bluetooth speaker",
+        "category": "electronics",
+        "amount": 24630,
+        "date": "2025-07-29"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 23759,
+        "date": "2025-08-20"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 5679,
+        "date": "2025-09-10"
+      },
+      {
+        "item": "jigsaw puzzle",
+        "category": "toys",
+        "amount": 18655,
+        "date": "2025-11-14"
+      },
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 11937,
+        "date": "2025-11-21"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 423
+  },
+  {
+    "customer_id": "L00181",
+    "name": "Asha",
+    "purchase_history": [
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 16645,
+        "date": "2025-01-03"
+      },
+      {
+        "item": "building blocks",
+        "category": "toys",
+        "amount": 23787,
+        "date": "2025-06-23"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 1823,
+        "date": "2025-11-21"
+      },
+      {
+        "item": "electrolyte mix",
+        "category": "nutrition",
+        "amount": 15287,
+        "date": "2025-12-04"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 804
+  },
+  {
+    "customer_id": "L00182",
+    "name": "Arjun",
+    "purchase_history": [
+      {
+        "item": "bluetooth speaker",
+        "category": "electronics",
+        "amount": 4506,
+        "date": "2025-02-23"
+      },
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 15138,
+        "date": "2025-03-10"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 6882,
+        "date": "2025-04-18"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 16818,
+        "date": "2025-07-16"
+      },
+      {
+        "item": "lipstick",
+        "category": "beauty",
+        "amount": 9265,
+        "date": "2025-07-23"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 23286,
+        "date": "2025-10-08"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 22969,
+        "date": "2025-10-24"
+      },
+      {
+        "item": "usb-c hub",
+        "category": "electronics",
+        "amount": 20043,
+        "date": "2025-12-25"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1198
+  },
+  {
+    "customer_id": "L00183",
+    "name": "Aarav",
+    "purchase_history": [
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 14140,
+        "date": "2025-01-07"
+      },
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 23576,
+        "date": "2025-03-01"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 19397,
+        "date": "2025-10-20"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 271
+  },
+  {
+    "customer_id": "L00184",
+    "name": "Nikhil",
+    "purchase_history": [
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 15130,
+        "date": "2025-02-22"
+      },
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 24993,
+        "date": "2025-10-05"
+      },
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 9691,
+        "date": "2025-12-16"
+      },
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 2332,
+        "date": "2025-12-20"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 115
+  },
+  {
+    "customer_id": "L00185",
+    "name": "Asha",
+    "purchase_history": [
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 24053,
+        "date": "2025-04-10"
+      },
+      {
+        "item": "summer dress",
+        "category": "apparel",
+        "amount": 14818,
+        "date": "2025-04-26"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 724,
+        "date": "2025-05-09"
+      },
+      {
+        "item": "summer dress",
+        "category": "apparel",
+        "amount": 23110,
+        "date": "2025-05-28"
+      },
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 12999,
+        "date": "2025-08-02"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 5994,
+        "date": "2025-09-21"
+      },
+      {
+        "item": "scented candle set",
+        "category": "home",
+        "amount": 6113,
+        "date": "2025-12-16"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1325
+  },
+  {
+    "customer_id": "L00186",
+    "name": "Riya",
+    "purchase_history": [
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 21988,
+        "date": "2025-06-04"
+      },
+      {
+        "item": "wireless headphones",
+        "category": "electronics",
+        "amount": 5336,
+        "date": "2025-06-15"
+      },
+      {
+        "item": "espresso machine",
+        "category": "home",
+        "amount": 11131,
+        "date": "2025-08-27"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 266
+  },
+  {
+    "customer_id": "L00187",
+    "name": "Nikhil",
+    "purchase_history": [
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 9919,
+        "date": "2025-04-22"
+      },
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 22036,
+        "date": "2025-06-19"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 3312,
+        "date": "2025-06-28"
+      },
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 6325,
+        "date": "2025-09-24"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 13929,
+        "date": "2025-10-06"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 18693,
+        "date": "2025-11-29"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1449
+  },
+  {
+    "customer_id": "L00188",
+    "name": "Maya",
+    "purchase_history": [
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 16251,
+        "date": "2025-01-23"
+      },
+      {
+        "item": "running shorts",
+        "category": "sportswear",
+        "amount": 12796,
+        "date": "2025-02-28"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 18002,
+        "date": "2025-05-25"
+      },
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 12586,
+        "date": "2025-09-21"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "platinum",
+    "points": 1315
+  },
+  {
+    "customer_id": "L00189",
+    "name": "Varun",
+    "purchase_history": [
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 20843,
+        "date": "2025-02-03"
+      },
+      {
+        "item": "denim jeans",
+        "category": "apparel",
+        "amount": 22759,
+        "date": "2025-08-06"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 17921,
+        "date": "2025-12-26"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 196
+  },
+  {
+    "customer_id": "L00190",
+    "name": "Karan",
+    "purchase_history": [
+      {
+        "item": "running shoes",
+        "category": "sportswear",
+        "amount": 2700,
+        "date": "2025-01-28"
+      },
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 18587,
+        "date": "2025-02-06"
+      },
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 23790,
+        "date": "2025-06-19"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": false
+    },
+    "loyalty_tier": "bronze",
+    "points": 147
+  },
+  {
+    "customer_id": "L00191",
+    "name": "Varun",
+    "purchase_history": [
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 23266,
+        "date": "2025-02-07"
+      },
+      {
+        "item": "bedsheet set",
+        "category": "home",
+        "amount": 3134,
+        "date": "2025-05-25"
+      },
+      {
+        "item": "face wash",
+        "category": "beauty",
+        "amount": 853,
+        "date": "2025-07-19"
+      },
+      {
+        "item": "sports jacket",
+        "category": "sportswear",
+        "amount": 5422,
+        "date": "2025-10-01"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 21318,
+        "date": "2025-11-13"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 13247,
+        "date": "2025-12-05"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 9797,
+        "date": "2025-12-18"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "gold",
+    "points": 923
+  },
+  {
+    "customer_id": "L00192",
+    "name": "Vikram",
+    "purchase_history": [
+      {
+        "item": "wireless headphones",
+        "category": "electronics",
+        "amount": 1668,
+        "date": "2025-01-03"
+      },
+      {
+        "item": "skincare serum",
+        "category": "beauty",
+        "amount": 10284,
+        "date": "2025-04-18"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 18437,
+        "date": "2025-10-12"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 13821,
+        "date": "2025-11-27"
+      },
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 22493,
+        "date": "2025-11-28"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1117
+  },
+  {
+    "customer_id": "L00193",
+    "name": "Aditya",
+    "purchase_history": [
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 3517,
+        "date": "2025-04-12"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 22286,
+        "date": "2025-10-18"
+      },
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 15414,
+        "date": "2025-11-27"
+      },
+      {
+        "item": "olive oil",
+        "category": "groceries",
+        "amount": 9824,
+        "date": "2025-12-10"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "gold",
+    "points": 517
+  },
+  {
+    "customer_id": "L00194",
+    "name": "Ishaan",
+    "purchase_history": [
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 20600,
+        "date": "2025-02-05"
+      },
+      {
+        "item": "smartwatch",
+        "category": "electronics",
+        "amount": 18874,
+        "date": "2025-07-06"
+      },
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 16220,
+        "date": "2025-08-19"
+      },
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 23023,
+        "date": "2025-10-27"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1374
+  },
+  {
+    "customer_id": "L00195",
+    "name": "Zara",
+    "purchase_history": [
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 15466,
+        "date": "2025-08-17"
+      },
+      {
+        "item": "protein powder",
+        "category": "nutrition",
+        "amount": 910,
+        "date": "2025-09-17"
+      },
+      {
+        "item": "energy bars",
+        "category": "nutrition",
+        "amount": 4887,
+        "date": "2025-10-03"
+      },
+      {
+        "item": "sci-fi anthology",
+        "category": "books",
+        "amount": 16257,
+        "date": "2025-10-10"
+      },
+      {
+        "item": "multivitamins",
+        "category": "nutrition",
+        "amount": 21453,
+        "date": "2025-11-07"
+      },
+      {
+        "item": "linen shirt",
+        "category": "apparel",
+        "amount": 24336,
+        "date": "2025-11-17"
+      },
+      {
+        "item": "air fryer",
+        "category": "home",
+        "amount": 4700,
+        "date": "2025-12-14"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 453
+  },
+  {
+    "customer_id": "L00196",
+    "name": "Ananya",
+    "purchase_history": [
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 21727,
+        "date": "2025-03-18"
+      },
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 15527,
+        "date": "2025-09-14"
+      },
+      {
+        "item": "gym gloves",
+        "category": "sportswear",
+        "amount": 8839,
+        "date": "2025-10-06"
+      },
+      {
+        "item": "biography",
+        "category": "books",
+        "amount": 7617,
+        "date": "2025-10-29"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1208
+  },
+  {
+    "customer_id": "L00197",
+    "name": "Asha",
+    "purchase_history": [
+      {
+        "item": "coffee beans",
+        "category": "groceries",
+        "amount": 14921,
+        "date": "2025-03-23"
+      },
+      {
+        "item": "bluetooth speaker",
+        "category": "electronics",
+        "amount": 24286,
+        "date": "2025-09-05"
+      },
+      {
+        "item": "smartwatch",
+        "category": "electronics",
+        "amount": 18840,
+        "date": "2025-12-04"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": false
+    },
+    "loyalty_tier": "silver",
+    "points": 489
+  },
+  {
+    "customer_id": "L00198",
+    "name": "Ananya",
+    "purchase_history": [
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 1821,
+        "date": "2025-01-21"
+      },
+      {
+        "item": "summer dress",
+        "category": "apparel",
+        "amount": 12137,
+        "date": "2025-07-18"
+      },
+      {
+        "item": "bestseller novel",
+        "category": "books",
+        "amount": 23360,
+        "date": "2025-09-24"
+      },
+      {
+        "item": "air fryer",
+        "category": "home",
+        "amount": 19260,
+        "date": "2025-10-06"
+      },
+      {
+        "item": "cookbook",
+        "category": "books",
+        "amount": 1702,
+        "date": "2025-12-09"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "bronze",
+    "points": 128
+  },
+  {
+    "customer_id": "L00199",
+    "name": "Aditya",
+    "purchase_history": [
+      {
+        "item": "assorted snacks",
+        "category": "groceries",
+        "amount": 12631,
+        "date": "2025-04-25"
+      },
+      {
+        "item": "tea sampler",
+        "category": "groceries",
+        "amount": 11863,
+        "date": "2025-06-26"
+      }
+    ],
+    "consent_flags": {
+      "personalization": true,
+      "email_marketing": false,
+      "data_sharing": true
+    },
+    "loyalty_tier": "platinum",
+    "points": 1338
+  },
+  {
+    "customer_id": "L00200",
+    "name": "Riya",
+    "purchase_history": [
+      {
+        "item": "bluetooth speaker",
+        "category": "electronics",
+        "amount": 13764,
+        "date": "2025-01-12"
+      },
+      {
+        "item": "wool sweater",
+        "category": "apparel",
+        "amount": 11120,
+        "date": "2025-02-28"
+      },
+      {
+        "item": "4k monitor",
+        "category": "electronics",
+        "amount": 20027,
+        "date": "2025-03-02"
+      },
+      {
+        "item": "cookware set",
+        "category": "home",
+        "amount": 5223,
+        "date": "2025-04-06"
+      },
+      {
+        "item": "action figure",
+        "category": "toys",
+        "amount": 15996,
+        "date": "2025-04-18"
+      },
+      {
+        "item": "mechanical keyboard",
+        "category": "electronics",
+        "amount": 20928,
+        "date": "2025-09-20"
+      },
+      {
+        "item": "mechanical keyboard",
+        "category": "electronics",
+        "amount": 2826,
+        "date": "2025-09-21"
+      },
+      {
+        "item": "cotton kurta",
+        "category": "apparel",
+        "amount": 4490,
+        "date": "2025-10-21"
+      }
+    ],
+    "consent_flags": {
+      "personalization": false,
+      "email_marketing": true,
+      "data_sharing": true
+    },
+    "loyalty_tier": "silver",
+    "points": 284
+  }
+]

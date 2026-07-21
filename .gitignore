@@ -9,8 +9,8 @@ faiss_index/
 web/node_modules/
 web/dist/
 
-# Generated synthetic dataset (reproducible via scripts/generate_customers.py)
-data/customers_large.json
+# Note: data/customers_large.json IS committed — the deployed backend
+# (render.yaml CUSTOMERS_FILE) serves it, so it must ship in the image.
 
 # Real/large datasets — raw download + ingested output (not committed)
 data/marketing_campaign.csv
