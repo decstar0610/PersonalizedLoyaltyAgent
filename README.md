@@ -1,11 +1,22 @@
 # LoyaltyForge — Personalized Reward Journeys
 
-> _NVIDIA final-project submission · PS100_
+> _NVIDIA final-project submission · PS100_ · **🟢 Live in production**
 
 An **agentic AI system** for retail & e-commerce that autonomously generates an
 individualized loyalty reward journey for each customer based on their purchase history,
 loyalty tier/points, and explicit **consent flags** — running end-to-end on the
 **NVIDIA NIM** stack.
+
+### 🌐 Live
+
+LoyaltyForge is **deployed and publicly accessible**:
+
+- **App (Customer Journey Studio):** https://personalized-loyalty-agent.vercel.app
+- **API:** https://loyaltyforge-api.onrender.com — `GET /health` · `GET /customers` · `POST /generate-journey`
+
+The premium, animated React studio runs on **Vercel**; the FastAPI backend runs on **Render** with the
+NVIDIA key kept server-side, CORS locked to the frontend origin, and the journey endpoint rate-limited.
+See [Deployment](#deployment). _First request after idle may take ~40s while the free-tier backend wakes._
 
 Unlike a rule-based loyalty program where everyone in a tier gets the same offers, this
 agent *reasons* about each customer: it checks consent, retrieves the applicable loyalty
@@ -261,6 +272,33 @@ See the three agentic behaviors on the current dataset with:
 ```bash
 python scripts/demo_agent.py
 ```
+
+---
+
+## Deployment
+
+The app is **live** (see [🌐 Live](#-live)) and deploys straight from this repo — both hosts
+auto-redeploy on every push to `main`.
+
+**Backend → Render** (Docker, free tier). `render.yaml` is a one-click **Blueprint**. Set these in the
+Render dashboard (secrets are never committed):
+
+| Env var | Purpose |
+|---|---|
+| `NVIDIA_API_KEY` | your NVIDIA NIM key (server-side only) |
+| `ALLOWED_ORIGINS` | exact frontend origin(s), comma-separated, **no trailing slash** (e.g. the Vercel URL) |
+| `CUSTOMERS_FILE` | dataset to serve — the live site uses `data/customers_large.json` (200 members) |
+| `RATE_LIMIT_PER_WINDOW` / `RATE_LIMIT_WINDOW_SECONDS` | per-IP cap on the paid `/generate-journey` endpoint |
+
+**Frontend → Vercel** (framework preset **Vite**, **Root Directory `web`**). Set:
+
+| Env var | Purpose |
+|---|---|
+| `VITE_API_BASE` | the deployed backend URL, **no trailing slash** (e.g. `https://loyaltyforge-api.onrender.com`) |
+
+> **Cost note:** every personalized journey is a paid NVIDIA call on the shared key, currently guarded
+> only by the per-IP rate limit. A phased plan to grow this into a multi-user SaaS with per-user quotas,
+> caching, accounts, and a database lives in [`docs/PRODUCTIZATION_PLAN.md`](docs/PRODUCTIZATION_PLAN.md).
 
 ---
 
